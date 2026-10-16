@@ -23,3 +23,7 @@ Treat this as a broad, dated reference release rather than a permanently exhaust
 ## Further expansion
 
 The release now also includes profiles for all 540 field positions across the three source tables, reproducible profiling code, geometry helpers for openings/wall layers/roof slope/density conversion, and a fictional source-version citation checker. Fourteen automated tests pass. Additional research dataset acquisition paths identify noncommercial and licensed-data boundaries. See `docs/coverage-map.md` for a need-by-need inventory.
+
+## Edmonton-focused update
+
+The README now starts with an Edmonton path, backed by a local process map, six proposed scenarios, a source shortlist, carbon-context guidance, and local mentor questions. A read-only City permit aggregation example and dated 2025 result snapshot use the verified primary dataset `24uj-dj8v`. The query returns 51 building-type groups without hitting its 100-group limit; counts represent permit dataset rows, not homes or approval precedents. City-derived data retains its source attribution and licence link. Eighteen automated tests cover the existing kit plus local-query construction and handling.

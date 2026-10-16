@@ -31,3 +31,7 @@ python scripts/profile_housing.py
 The geometry helper covers slab openings, wall-layer thickness, roof slope and a documented volume-to-mass conversion. The citation lookup rejects an invented reference, wrong edition, or ambiguous match in a fictional corpus. These are small building blocks, not full extraction or compliance applications.
 
 See [housing field profiles](../data/profiles/README.md), [research datasets](../resources/research-datasets.md), and [coverage map](../docs/coverage-map.md).
+
+## Edmonton municipal data
+
+`python examples/edmonton_permits.py --year 2025` runs one read-only City API aggregation. Unlike the synthetic calculation fixtures, these results are real dated municipal data. See [query interpretation and licence](../edmonton/open-data.md). The bundled snapshot contains building-type aggregate counts, not property records.

@@ -1,5 +1,7 @@
 # Example spec: Reviewable takeoff to carbon
 
+Edmonton implementation: use the [local carbon assumptions guide](../edmonton/carbon-context.md) and one permissioned sponsor plan. Municipal permit data is context, not takeoff ground truth.
+
 **Status:** volunteer proposal. The [official brief](https://edmontonunlimited.com/wp-content/uploads/2026/09/BWT_EmbodiedCarbon_Challenge_Scope-Draft-V2-August-19-2026.docx-1.pdf) calls for vector PDF input, a traceable takeoff, A1–A3 assessment, corrections, and substitutions. The first slice below deliberately covers one assembly; it is not a complete challenge submission.
 
 ## User and outcome

@@ -453,8 +453,8 @@
     },
     {
       "path": "docs/idea-bank.md",
-      "bytes": 3237,
-      "sha256": "422e151f0732ab89227685d3850d54bb9995f7f1e096e8fdb0402ffbf7d11e63"
+      "bytes": 3380,
+      "sha256": "1256482766fde491af74b01de1cf61662b765fa2a5fef1d4fba1194a73a12c45"
     },
     {
       "path": "docs/integration-recipes.md",
@@ -463,8 +463,8 @@
     },
     {
       "path": "docs/mentor-playbook.md",
-      "bytes": 1996,
-      "sha256": "475f809a9684f924a1cc0c1787bb6863cd419c2c69629c6dc57f1d0951c25f3d"
+      "bytes": 2117,
+      "sha256": "c76af1fdb8b1f9b92d1f458f0416747be19583f953da6aea3360845f2f1a497f"
     },
     {
       "path": "docs/operations-and-cost.md",
@@ -485,6 +485,46 @@
       "path": "docs/stacks.md",
       "bytes": 2599,
       "sha256": "cb21af1caf9075d3d3bc38f8ff7178f379d364cbcbb00233462ef12aa59906be"
+    },
+    {
+      "path": "edmonton/carbon-context.md",
+      "bytes": 3217,
+      "sha256": "af6ebd86e567072c88591aeee42d357f50344912babce16bff2ad876040e1a63"
+    },
+    {
+      "path": "edmonton/data/permit-counts-2025.json",
+      "bytes": 5489,
+      "sha256": "dc2d463eaa87e449a5f440593585398301893d6b74fd6c44e95a847b8d407626"
+    },
+    {
+      "path": "edmonton/mentor-questions.md",
+      "bytes": 1782,
+      "sha256": "5c2a61daff84bfa4568a470478d4abd38389e69b01df9c0365358a0b26ae5e4d"
+    },
+    {
+      "path": "edmonton/open-data.md",
+      "bytes": 3504,
+      "sha256": "28d975f508a6e26ceea6f3efd6345c84bee3dda5027f8761d130bcad1920e50a"
+    },
+    {
+      "path": "edmonton/process-map.md",
+      "bytes": 3204,
+      "sha256": "694284d7d8a99b62b2bd364d98e98114e6123c51983450e05d2b99fa105459cc"
+    },
+    {
+      "path": "edmonton/README.md",
+      "bytes": 2679,
+      "sha256": "4a91e97f9c98cf1bc03ec390f3c63dca4cea9af9126e033b029f9551f8ba2f68"
+    },
+    {
+      "path": "edmonton/scenarios.md",
+      "bytes": 4280,
+      "sha256": "c35b0f90f3db6804afb65911523efa6455f5be462fe9339f54275dd77959dfc9"
+    },
+    {
+      "path": "edmonton/sources.md",
+      "bytes": 3375,
+      "sha256": "95357ebc794693005d5c51010fe2f47673b534e6dc7eb79ad52bae7ad3aed9fa"
     },
     {
       "path": "examples/application_check.py",
@@ -517,6 +557,11 @@
       "sha256": "2954b0dc86ee73dce1fca7f6e1c11d2f6fc2a125a8e2e3428c29f1ffd2fc1782"
     },
     {
+      "path": "examples/edmonton_permits.py",
+      "bytes": 2250,
+      "sha256": "201307edefa26d7519a9f76f31d8a03e2495ae4ee4e15f6bbf8c19d11baced63"
+    },
+    {
       "path": "examples/housing_summary.py",
       "bytes": 925,
       "sha256": "dd44bdf72d7092565a2a1068a755228f3c03d35921c0436c02fdeff7e0a698b4"
@@ -533,8 +578,8 @@
     },
     {
       "path": "examples/README.md",
-      "bytes": 1761,
-      "sha256": "04fc9f568ac8011b0231a208a2280ef87e20fcb59813ed101f9cca619756c249"
+      "bytes": 2119,
+      "sha256": "d840a7ae5a115f6e4347296174a459074ac99122f50befbbb4610011c0b1bc6d"
     },
     {
       "path": "LICENSE",
@@ -548,13 +593,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 5399,
-      "sha256": "91eed0f01130c7c0c9527d03da96cdd6b9ca5e9bf0b0d8030ce764c7b375a4e4"
+      "bytes": 6469,
+      "sha256": "711b04b426a44a4524bf3909b6bba360a729a7c1b8105b8b9caaf107d347f444"
     },
     {
       "path": "RELEASE.md",
-      "bytes": 2851,
-      "sha256": "db08732f4cbda7b558aa7086c58c3d52bede08dbc947897795afb213bb17bd1b"
+      "bytes": 3484,
+      "sha256": "c65faff35fdf3c39ed4db1a14714aaec8fc6ccb12d952c141d634b527bae19ee"
     },
     {
       "path": "resources/additional-domain-sources.md",
@@ -578,8 +623,8 @@
     },
     {
       "path": "resources/data-sources.md",
-      "bytes": 4070,
-      "sha256": "7de57ff41e0727616603d3b6970f53fb01acabffdee4f485fa87958c06b3c680"
+      "bytes": 4216,
+      "sha256": "7b35d1fe8e791cb8bd766474865e924b4318bd5f523fbae24a9321fd45a807b9"
     },
     {
       "path": "resources/research-datasets.md",
@@ -603,8 +648,8 @@
     },
     {
       "path": "specs/building-codes.md",
-      "bytes": 3324,
-      "sha256": "f030454c0a1fc78fa2b67659444b3b539ff19205f2c56ed384258c5fac81fce7"
+      "bytes": 3518,
+      "sha256": "ef575279c54f364112e8072de9817fb3cd37c9c5b9755f48801f313f4b307b33"
     },
     {
       "path": "specs/carbon-hotspot-workspace.md",
@@ -613,8 +658,8 @@
     },
     {
       "path": "specs/embodied-carbon.md",
-      "bytes": 3596,
-      "sha256": "0c6813f80038fe5bcd938e98af2e9d88b46fb6041f940cedb6078557607b80a7"
+      "bytes": 3789,
+      "sha256": "faaa53dbd475d03e07302a208e07c5a9002734e98647089e30cbd485973f9c25"
     },
     {
       "path": "specs/reviewer-workspace.md",
@@ -650,6 +695,11 @@
       "path": "tests/test_data.py",
       "bytes": 2122,
       "sha256": "552171a17f0bd16ebf0a481dfdbd24c47cc58d03d1af7ac82a4c56f7e542fbd3"
+    },
+    {
+      "path": "tests/test_edmonton.py",
+      "bytes": 1225,
+      "sha256": "8d574c6f84e1d4beadba3b520ee0d4b04ac264505e56f7707722d0b1bc0aab83"
     },
     {
       "path": "tests/test_examples.py",

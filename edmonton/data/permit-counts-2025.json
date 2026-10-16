@@ -1,0 +1,218 @@
+{
+  "source": "City of Edmonton: General Building Permits",
+  "dataset_id": "24uj-dj8v",
+  "dataset_url": "https://data.edmonton.ca/d/24uj-dj8v",
+  "query_url": "https://data.edmonton.ca/resource/24uj-dj8v.json?%24select=building_type%2Ccount%28%2A%29+as+permit_rows&%24where=issue_date+%3E%3D+%272025-01-01T00%3A00%3A00%27+AND+issue_date+%3C+%272026-01-01T00%3A00%3A00%27&%24group=building_type&%24order=permit_rows+DESC%2Cbuilding_type+ASC&%24limit=100",
+  "license_url": "https://data.edmonton.ca/stories/s/City-of-Edmonton-Open-Data-Terms-of-Use/msh8-if28",
+  "attribution": "Contains information licensed under the Open Government Licence – City of Edmonton.",
+  "fetched_at_utc": "2026-10-16T03:44:02.078959+00:00",
+  "year": 2025,
+  "interpretation": "Counts of issued-permit dataset rows by building type, filtered on issue_date; not homes, starts, completions, or alternative-solution approvals.",
+  "may_be_truncated": false,
+  "rows": [
+    {
+      "building_type": "Single Detached House (110)",
+      "permit_rows": 10468
+    },
+    {
+      "building_type": "Row House (330)",
+      "permit_rows": 1147
+    },
+    {
+      "building_type": "Semi-Detached House (210)",
+      "permit_rows": 1140
+    },
+    {
+      "building_type": "(unclassified)",
+      "permit_rows": 427
+    },
+    {
+      "building_type": "Retail and Shops (510)",
+      "permit_rows": 425
+    },
+    {
+      "building_type": "Office Buildings (520)",
+      "permit_rows": 376
+    },
+    {
+      "building_type": "Backyard House (110)",
+      "permit_rows": 342
+    },
+    {
+      "building_type": "Storage Buildings, Warehouses (460)",
+      "permit_rows": 278
+    },
+    {
+      "building_type": "Restaurants and Bars (540)",
+      "permit_rows": 227
+    },
+    {
+      "building_type": "Apartments (310)",
+      "permit_rows": 180
+    },
+    {
+      "building_type": "Day Cares, Nursing Homes (650)",
+      "permit_rows": 170
+    },
+    {
+      "building_type": "Malls, Office/Retail (512)",
+      "permit_rows": 113
+    },
+    {
+      "building_type": "Row Houses (330)",
+      "permit_rows": 96
+    },
+    {
+      "building_type": "Apartment Condos (315)",
+      "permit_rows": 95
+    },
+    {
+      "building_type": "Elementary Schools (620)",
+      "permit_rows": 92
+    },
+    {
+      "building_type": "Temporary Structures (999)",
+      "permit_rows": 88
+    },
+    {
+      "building_type": "Indoor Recreational Buildings (560)",
+      "permit_rows": 76
+    },
+    {
+      "building_type": "Detached Garage (010)",
+      "permit_rows": 70
+    },
+    {
+      "building_type": "Service Stations, Repair Garages (572)",
+      "permit_rows": 65
+    },
+    {
+      "building_type": "Other Accommodation (534)",
+      "permit_rows": 38
+    },
+    {
+      "building_type": "Manufacturing Buildings (430)",
+      "permit_rows": 35
+    },
+    {
+      "building_type": "Mixed Use (522)",
+      "permit_rows": 32
+    },
+    {
+      "building_type": "Hoarding (910)",
+      "permit_rows": 31
+    },
+    {
+      "building_type": "Parkade (490)",
+      "permit_rows": 30
+    },
+    {
+      "building_type": "Religious Buildings (660)",
+      "permit_rows": 27
+    },
+    {
+      "building_type": "Secondary Schools (622)",
+      "permit_rows": 26
+    },
+    {
+      "building_type": "Post-secondary Institutions (624)",
+      "permit_rows": 19
+    },
+    {
+      "building_type": "Hospitals (640)",
+      "permit_rows": 14
+    },
+    {
+      "building_type": "Outdoor Recreational Buildings (562)",
+      "permit_rows": 13
+    },
+    {
+      "building_type": "Duplex (210)",
+      "permit_rows": 11
+    },
+    {
+      "building_type": "Maintenance Buildings incl Hangars (450)",
+      "permit_rows": 11
+    },
+    {
+      "building_type": "Mobile Home (130)",
+      "permit_rows": 11
+    },
+    {
+      "building_type": "Universities (626)",
+      "permit_rows": 11
+    },
+    {
+      "building_type": "Animal and Plant Services (410)",
+      "permit_rows": 10
+    },
+    {
+      "building_type": "Clinics, Health Units (642)",
+      "permit_rows": 10
+    },
+    {
+      "building_type": "Law Enforcement/Emergency Svcs. (612)",
+      "permit_rows": 10
+    },
+    {
+      "building_type": "Libraries/Museums/Art Galleries (630)",
+      "permit_rows": 10
+    },
+    {
+      "building_type": "Retail - Motor Vehicle (570)",
+      "permit_rows": 10
+    },
+    {
+      "building_type": "Utility Buildings (480)",
+      "permit_rows": 10
+    },
+    {
+      "building_type": "Row House Condos (335)",
+      "permit_rows": 9
+    },
+    {
+      "building_type": "Transportation Terminals (440)",
+      "permit_rows": 8
+    },
+    {
+      "building_type": "Government Legislative/Admin (610)",
+      "permit_rows": 5
+    },
+    {
+      "building_type": "Laboratory/Research Centres (580)",
+      "permit_rows": 5
+    },
+    {
+      "building_type": "Funeral Homes (590)",
+      "permit_rows": 4
+    },
+    {
+      "building_type": "Engineering (490)",
+      "permit_rows": 3
+    },
+    {
+      "building_type": "Hotels (530)",
+      "permit_rows": 3
+    },
+    {
+      "building_type": "Convention Centres (536)",
+      "permit_rows": 2
+    },
+    {
+      "building_type": "Semi Detached House (210)",
+      "permit_rows": 2
+    },
+    {
+      "building_type": "Communication Buildings (470)",
+      "permit_rows": 1
+    },
+    {
+      "building_type": "Semi Detached Condo (215)",
+      "permit_rows": 1
+    },
+    {
+      "building_type": "Theatre and Performing Arts Ctrs (550)",
+      "permit_rows": 1
+    }
+  ]
+}

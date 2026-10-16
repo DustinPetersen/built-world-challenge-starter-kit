@@ -1,8 +1,23 @@
-# Built World Challenge · Starter Kit
+# Built World Challenge · Edmonton Starter Kit
 
-Practical ideas, example specifications, data resources, and mentor tools for teams exploring building-code application preparation and residential embodied carbon.
+An Edmonton-first volunteer resource for building-code application preparation and residential embodied carbon, with example specs, local workflows, data sources, APIs, and mentor tools.
 
 **Independent volunteer resource · Edmonton, Alberta · October 2026.** This is not an official event publication or an endorsed solution. Original proposals here are starting points; the organizer's current challenge brief and supplied data package govern event requirements.
+
+## Start with the Edmonton context
+
+**[Open the Edmonton guide](edmonton/README.md)** for the recommended local path.
+
+| Need | Edmonton starting point |
+| --- | --- |
+| Understand local process and Alberta sources | [Jurisdiction and submission map](edmonton/process-map.md) |
+| Pick a focused event demo | [Six Edmonton scenarios](edmonton/scenarios.md) |
+| Find the right local references | [City, provincial and event shortlist](edmonton/sources.md) |
+| Query actual municipal data | [Tested permit API and dated snapshot](edmonton/open-data.md) |
+| Make carbon assumptions locally meaningful | [Product geography, assemblies and scope](edmonton/carbon-context.md) |
+| Prepare for office hours | [Questions for local reviewers and estimators](edmonton/mentor-questions.md) |
+
+Start with one Edmonton submission category or one authorized sponsor home plan. Confirm the responsible municipality, current source versions, and reference reviewer before choosing a stack. The wider technical library below supports those local workflows.
 
 ## Start here — 15 minutes
 

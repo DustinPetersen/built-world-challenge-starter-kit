@@ -1,5 +1,7 @@
 # Data and reference directory
 
+For an Edmonton project, start with the [local shortlist](../edmonton/sources.md) and [tested municipal-data recipes](../edmonton/open-data.md).
+
 Reviewed October 15, 2026. These are links and access notes, not redistributed datasets. Public readability does not establish rights to copy, embed, scrape, train on, or republish material. Confirm exact terms for your intended use.
 
 | Resource | Best use | Access / reuse / caveat |

@@ -1,5 +1,7 @@
 # Idea bank
 
+For Edmonton, begin with the [six local scenarios](../edmonton/scenarios.md), then use this broader idea bank to extend your chosen workflow.
+
 These are volunteer proposals, not organizer requirements. Pick a wedge that can be demonstrated with one input and one useful decision. Difficulty assumes a small team familiar with its stack.
 
 | Idea | User and useful result | First demo | Difficulty | Main risk / validation |

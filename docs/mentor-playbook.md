@@ -1,5 +1,7 @@
 # Office-hours mentor playbook
 
+For this event, use the [Edmonton mentor questions](../edmonton/mentor-questions.md) alongside this facilitation guide.
+
 ## A 20-minute conversation
 
 | Time | Activity | Leave behind |

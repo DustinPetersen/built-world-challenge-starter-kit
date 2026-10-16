@@ -1,5 +1,7 @@
 # Example spec: Evidence-backed application preparation
 
+Edmonton implementation: confirm municipality and source versions using the [local process map](../edmonton/process-map.md), then select one of the [local scenarios](../edmonton/scenarios.md).
+
 **Status:** volunteer proposal for a narrow prototype. Consult the [official brief](https://edmontonunlimited.com/wp-content/uploads/2026/09/Building-Codes-Challenge-with-Appendix-.pdf) for the complete scope. The brief includes guided preparation, code identification, professional involvement, reviewer support, and form export. This spec is a suggested first slice.
 
 ## User and outcome
