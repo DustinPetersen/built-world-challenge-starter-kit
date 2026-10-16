@@ -20,5 +20,5 @@ if __name__ == '__main__':
             records.append(dict(path=path.relative_to(ROOT).as_posix(), bytes=len(data),
                                 sha256=hashlib.sha256(data).hexdigest()))
     (ROOT/'file-manifest.json').write_text(json.dumps(
-        dict(release='expanded-2026-10-15', files=records), indent=2)+'\n', encoding='utf-8')
+        dict(release='expanded-2026-10-15', files=records), indent=2)+'\n', encoding='utf-8', newline='\n')
     print(f'Updated manifest: {len(records)} files')

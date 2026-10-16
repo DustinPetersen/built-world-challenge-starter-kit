@@ -593,8 +593,8 @@
     },
     {
       "path": "scripts/update_manifest.py",
-      "bytes": 1049,
-      "sha256": "386e050f129fc3293e3a21e47a9667c717a8c9418c779fb03d1a2c168207d2b4"
+      "bytes": 1063,
+      "sha256": "dff41c8623522e6d547a9bff8f847425cc78e0b87398a611f4aec3818c2d1daa"
     },
     {
       "path": "scripts/verify_release.py",
