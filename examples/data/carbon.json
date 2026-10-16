@@ -1,0 +1,27 @@
+{
+  "floor_area_m2": 100,
+  "quantities": [
+    {
+      "id": "slab-1",
+      "material": "fictional concrete",
+      "quantity": 8,
+      "unit": "m3",
+      "factor_id": "fictional-250",
+      "source": "synthetic geometry: 10m x 8m x 0.1m",
+      "basis": "assumed"
+    }
+  ],
+  "factors": [
+    {
+      "id": "fictional-250",
+      "value": 250,
+      "declared_unit": "m3",
+      "modules": "A1-A3",
+      "source": "FICTIONAL arithmetic fixture; not a published EPD"
+    }
+  ],
+  "exclusions": [
+    "all assemblies other than synthetic slab",
+    "A4 and later lifecycle modules"
+  ]
+}

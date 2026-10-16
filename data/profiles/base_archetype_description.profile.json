@@ -1,0 +1,6049 @@
+{
+  "source": "base_archetype_description.csv",
+  "row_count": 6794,
+  "column_count": 256,
+  "fields": [
+    {
+      "field": "filename",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 6794,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "ERS-EX-10000.H2K",
+          "count": 1
+        },
+        {
+          "value": "ERS-EX-10030.H2K",
+          "count": 1
+        },
+        {
+          "value": "ERS-EX-10057.H2K",
+          "count": 1
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "region",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 7,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "ONTARIO",
+          "count": 2353
+        },
+        {
+          "value": "QUÉBEC",
+          "count": 1314
+        },
+        {
+          "value": "PRAIRIES",
+          "count": 1164
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "province",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 11,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "ONTARIO",
+          "count": 2353
+        },
+        {
+          "value": "QUÉBEC",
+          "count": 1644
+        },
+        {
+          "value": "ALBERTA",
+          "count": 741
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "location",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 97,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "TORONTO INTL",
+          "count": 885
+        },
+        {
+          "value": "QUÉBEC INTL",
+          "count": 569
+        },
+        {
+          "value": "EDMONTON INTL",
+          "count": 551
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "hdd",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 112,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "3664.0",
+          "count": 885
+        },
+        {
+          "value": "4838.0",
+          "count": 569
+        },
+        {
+          "value": "5668.0",
+          "count": 551
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 2650.0,
+      "max": 9600.0,
+      "mean": 4333.079629084486
+    },
+    {
+      "field": "houseType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 3,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "House",
+          "count": 6430
+        },
+        {
+          "value": "Multi-unit: whole building",
+          "count": 359
+        },
+        {
+          "value": "Multi-unit: one unit",
+          "count": 5
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "houseSubType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 12,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "Single Detached",
+          "count": 5023
+        },
+        {
+          "value": "Mobile Home",
+          "count": 472
+        },
+        {
+          "value": "Row house, end unit",
+          "count": 459
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "planShape",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 7,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "Rectangular",
+          "count": 4840
+        },
+        {
+          "value": "L-shape",
+          "count": 470
+        },
+        {
+          "value": "Other, 11 or more corners",
+          "count": 389
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "storeys",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 7,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "Two storeys",
+          "count": 3577
+        },
+        {
+          "value": "One storey",
+          "count": 2788
+        },
+        {
+          "value": "One and a half",
+          "count": 167
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "decade",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 22,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "1970",
+          "count": 1259
+        },
+        {
+          "value": "1980",
+          "count": 1193
+        },
+        {
+          "value": "1990",
+          "count": 1052
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 1790.0,
+      "max": 2010.0,
+      "mean": 1969.081542537533
+    },
+    {
+      "field": "vintageExact",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 165,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "1975",
+          "count": 179
+        },
+        {
+          "value": "1970",
+          "count": 167
+        },
+        {
+          "value": "1990",
+          "count": 161
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 1790.0,
+      "max": 2019.0,
+      "mean": 1973.2135707977627
+    },
+    {
+      "field": "murbStoreysInBuilding",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 3,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 6789
+        },
+        {
+          "value": "3.0",
+          "count": 4
+        },
+        {
+          "value": "1.0",
+          "count": 1
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 3.0,
+      "mean": 0.0019134530468060053
+    },
+    {
+      "field": "murbDwellingCount",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 9,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 6430
+        },
+        {
+          "value": "2.0",
+          "count": 230
+        },
+        {
+          "value": "3.0",
+          "count": 87
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 9.0,
+      "mean": 0.14041801589637914
+    },
+    {
+      "field": "murbNonResUnitCount",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 3,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 6785
+        },
+        {
+          "value": "1.0",
+          "count": 8
+        },
+        {
+          "value": "2.0",
+          "count": 1
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 2.0,
+      "mean": 0.0014718869590815426
+    },
+    {
+      "field": "murbUnitsVisitedCount",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 6794
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    {
+      "field": "agFloorArea",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2192,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "76.1",
+          "count": 25
+        },
+        {
+          "value": "93.4",
+          "count": 24
+        },
+        {
+          "value": "89.4",
+          "count": 21
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 1.6,
+      "max": 2511.2,
+      "mean": 142.84721813364737
+    },
+    {
+      "field": "bgFloorArea",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1335,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 983
+        },
+        {
+          "value": "84.7",
+          "count": 26
+        },
+        {
+          "value": "89.2",
+          "count": 26
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1316.3,
+      "mean": 73.62493376508677
+    },
+    {
+      "field": "nonResUnitFloorArea",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 10,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 6785
+        },
+        {
+          "value": "138.6",
+          "count": 1
+        },
+        {
+          "value": "61.1",
+          "count": 1
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 188.6,
+      "mean": 0.15291433617898142
+    },
+    {
+      "field": "commonSpacesFloorArea",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 93,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 6672
+        },
+        {
+          "value": "6.7",
+          "count": 5
+        },
+        {
+          "value": "36.2",
+          "count": 5
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 246.6,
+      "mean": 0.5001766264350896
+    },
+    {
+      "field": "totFloorArea",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 3244,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "76.1",
+          "count": 23
+        },
+        {
+          "value": "98.9",
+          "count": 17
+        },
+        {
+          "value": "93.4",
+          "count": 17
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 30.299999999999997,
+      "max": 2640.2999999999997,
+      "mean": 216.47215189873435
+    },
+    {
+      "field": "totVolume",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 6541,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "173.9362",
+          "count": 11
+        },
+        {
+          "value": "331.5535",
+          "count": 6
+        },
+        {
+          "value": "386.0181",
+          "count": 4
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 76.4951,
+      "max": 3703.3635,
+      "mean": 540.8030797615542
+    },
+    {
+      "field": "highestCeiling",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 382,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "5.4864",
+          "count": 247
+        },
+        {
+          "value": "5.7912",
+          "count": 193
+        },
+        {
+          "value": "6.096",
+          "count": 188
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 2.0726,
+      "max": 36.576,
+      "mean": 5.2781051221666155
+    },
+    {
+      "field": "ach",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 6518,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "10.35",
+          "count": 9
+        },
+        {
+          "value": "3.2",
+          "count": 4
+        },
+        {
+          "value": "4.55",
+          "count": 4
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.4342,
+      "max": 58.9629,
+      "mean": 6.791570076538151
+    },
+    {
+      "field": "ela",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 6789,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "199.238",
+          "count": 2
+        },
+        {
+          "value": "1260.6349",
+          "count": 2
+        },
+        {
+          "value": "2427.4675",
+          "count": 2
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 95.8754,
+      "max": 8854.7861,
+      "mean": 1308.9063472181379
+    },
+    {
+      "field": "numAdults",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 12,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "2",
+          "count": 6352
+        },
+        {
+          "value": "4",
+          "count": 239
+        },
+        {
+          "value": "6",
+          "count": 105
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 1.0,
+      "max": 18.0,
+      "mean": 2.184427435972917
+    },
+    {
+      "field": "numChildren",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 4,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "1",
+          "count": 5578
+        },
+        {
+          "value": "2",
+          "count": 691
+        },
+        {
+          "value": "0",
+          "count": 520
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 3.0,
+      "mean": 1.0266411539593758
+    },
+    {
+      "field": "numInfants",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6793
+        },
+        {
+          "value": "1",
+          "count": 1
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.00014718869590815426
+    },
+    {
+      "field": "commonSpaceElectricalConsumption",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 93,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6672
+        },
+        {
+          "value": "0.5762",
+          "count": 5
+        },
+        {
+          "value": "3.1132",
+          "count": 5
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 21.2076,
+      "mean": 0.04301518987341771
+    },
+    {
+      "field": "dailyElectricApplianceConsumption",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 38,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "6.2997",
+          "count": 5444
+        },
+        {
+          "value": "9",
+          "count": 344
+        },
+        {
+          "value": "14",
+          "count": 323
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 2.8699,
+      "max": 46.6175,
+      "mean": 7.174238489843983
+    },
+    {
+      "field": "dailyLightingConsumption",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 12,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "2.6",
+          "count": 5716
+        },
+        {
+          "value": "3.4",
+          "count": 578
+        },
+        {
+          "value": "3",
+          "count": 323
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 1.6,
+      "max": 15.3,
+      "mean": 2.763659110980276
+    },
+    {
+      "field": "dailyOtherElectricityConsumption",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 13,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "9.7",
+          "count": 5736
+        },
+        {
+          "value": "7.6",
+          "count": 344
+        },
+        {
+          "value": "3",
+          "count": 323
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 3.0,
+      "max": 39.6,
+      "mean": 9.383367677362378
+    },
+    {
+      "field": "dailyExteriorElectricityConsumption",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 11,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.9",
+          "count": 5737
+        },
+        {
+          "value": "4",
+          "count": 667
+        },
+        {
+          "value": "0.8",
+          "count": 234
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.4,
+      "max": 4.0,
+      "mean": 1.2130261995878717
+    },
+    {
+      "field": "dailyHotWaterLoad",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 274,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "188.5936",
+          "count": 828
+        },
+        {
+          "value": "224.9857",
+          "count": 628
+        },
+        {
+          "value": "192.7358",
+          "count": 533
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 59.8556,
+      "max": 1125.6038,
+      "mean": 200.12553036502797
+    },
+    {
+      "field": "hotWaterSetPoint",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "55",
+          "count": 6794
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 55.0,
+      "max": 55.0,
+      "mean": 55.0
+    },
+    {
+      "field": "dayHeatingSetPoint",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 19,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "21",
+          "count": 6661
+        },
+        {
+          "value": "21.1111",
+          "count": 54
+        },
+        {
+          "value": "20",
+          "count": 25
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 15.5556,
+      "max": 25.5556,
+      "mean": 20.994676538121865
+    },
+    {
+      "field": "nightHeatingSetPoint",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 18,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "18",
+          "count": 6007
+        },
+        {
+          "value": "21",
+          "count": 661
+        },
+        {
+          "value": "21.1111",
+          "count": 49
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 12.0,
+      "max": 24.4444,
+      "mean": 18.33572094495143
+    },
+    {
+      "field": "coolingSetPoint",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 14,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "25",
+          "count": 6739
+        },
+        {
+          "value": "22.2222",
+          "count": 15
+        },
+        {
+          "value": "21.1111",
+          "count": 12
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 18.8889,
+      "max": 27.7778,
+      "mean": 24.980145819841034
+    },
+    {
+      "field": "setbackDuration",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "8",
+          "count": 6794
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 8.0,
+      "max": 8.0,
+      "mean": 8.0
+    },
+    {
+      "field": "spaceHeatingType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 4,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "Furnace",
+          "count": 4416
+        },
+        {
+          "value": "Baseboards",
+          "count": 1881
+        },
+        {
+          "value": "Boiler",
+          "count": 488
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "spaceHeatingFuel",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 8,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "Natural gas",
+          "count": 3541
+        },
+        {
+          "value": "Electric",
+          "count": 2536
+        },
+        {
+          "value": "Oil",
+          "count": 495
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "spaceHeatingEquipType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 33,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "Baseboards",
+          "count": 1881
+        },
+        {
+          "value": "Condensing",
+          "count": 1378
+        },
+        {
+          "value": "Induced draft fan furnace",
+          "count": 975
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "spaceHeatingEff",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 106,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "100",
+          "count": 2536
+        },
+        {
+          "value": "80",
+          "count": 1124
+        },
+        {
+          "value": "90",
+          "count": 763
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 35.0,
+      "max": 100.0,
+      "mean": 89.24774801295257
+    },
+    {
+      "field": "spaceHeatingEffType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "Steady State",
+          "count": 6794
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "spaceHeatingCapacity",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 449,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "12.5",
+          "count": 221
+        },
+        {
+          "value": "15.5",
+          "count": 213
+        },
+        {
+          "value": "14.0",
+          "count": 212
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 2.0,
+      "max": 2936.5537,
+      "mean": 18.69273863703266
+    },
+    {
+      "field": "spaceHeatingPilotLight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 7,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 5795
+        },
+        {
+          "value": "25.301",
+          "count": 681
+        },
+        {
+          "value": "25.3",
+          "count": 304
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 25.301,
+      "mean": 3.720249867530174
+    },
+    {
+      "field": "spaceHeatingFlueDiameter",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 17,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 4838
+        },
+        {
+          "value": "152.4",
+          "count": 1040
+        },
+        {
+          "value": "127.0",
+          "count": 604
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 254.0,
+      "mean": 40.35325581395349
+    },
+    {
+      "field": "spaceHeatingDualFuel",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "false",
+          "count": 6780
+        },
+        {
+          "value": "true",
+          "count": 14
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "spaceHeatingDualFuelSwitchTemp",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 4,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 6606
+        },
+        {
+          "value": "-17.7778",
+          "count": 176
+        },
+        {
+          "value": "-12.0",
+          "count": 11
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": -17.7778,
+      "max": 2.2222,
+      "mean": -0.47963947600824247
+    },
+    {
+      "field": "supplHeatingFuel",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 9,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 3354
+        },
+        {
+          "value": "Mixed Wood",
+          "count": 1445
+        },
+        {
+          "value": "Natural gas",
+          "count": 1269
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "supplHeatingEquipType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 20,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 3354
+        },
+        {
+          "value": "Fireplace with pilot (sealed)",
+          "count": 811
+        },
+        {
+          "value": "Wood fireplace",
+          "count": 768
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "supplHeatingEff",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 49,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 3354
+        },
+        {
+          "value": "30.0",
+          "count": 2949
+        },
+        {
+          "value": "50.0",
+          "count": 128
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 315.0,
+      "mean": 17.871165734471596
+    },
+    {
+      "field": "supplHeatingCapacity",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 75,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 3354
+        },
+        {
+          "value": "2.0",
+          "count": 3137
+        },
+        {
+          "value": "7.0",
+          "count": 88
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 43.1401,
+      "mean": 1.3766405504857229
+    },
+    {
+      "field": "supplHeatingPilotLight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 6,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 5577
+        },
+        {
+          "value": "17.6996",
+          "count": 1104
+        },
+        {
+          "value": "17.7",
+          "count": 89
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 25.0,
+      "mean": 3.1952248012952604
+    },
+    {
+      "field": "supplHeatingFlueDiameter",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 24,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 4608
+        },
+        {
+          "value": "127.0",
+          "count": 1287
+        },
+        {
+          "value": "99.06",
+          "count": 213
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 342.9,
+      "mean": 38.552888107153365
+    },
+    {
+      "field": "supplHeatingLocationHeated",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 4,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 3354
+        },
+        {
+          "value": "Main Floors",
+          "count": 2998
+        },
+        {
+          "value": "Basement",
+          "count": 441
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "supplHeatingAreaHeated",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 191,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 3357
+        },
+        {
+          "value": "12.0",
+          "count": 3159
+        },
+        {
+          "value": "27.87",
+          "count": 17
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 770.31,
+      "mean": 8.668336767736237
+    },
+    {
+      "field": "supplHeatingDamperClosed",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "false",
+          "count": 6444
+        },
+        {
+          "value": "true",
+          "count": 350
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "supplHeatingUsed",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 8,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "Never",
+          "count": 6557
+        },
+        {
+          "value": "Always",
+          "count": 88
+        },
+        {
+          "value": "10% of the time",
+          "count": 52
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "coolingEquipType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 4,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 4244
+        },
+        {
+          "value": "Central split system",
+          "count": 2397
+        },
+        {
+          "value": "Mini-split ductless",
+          "count": 116
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "coolingEff",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 38,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 4244
+        },
+        {
+          "value": "10",
+          "count": 1120
+        },
+        {
+          "value": "3",
+          "count": 343
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "coolingEffType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "COP",
+          "count": 6794
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "coolingCapacity",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2497,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 4244
+        },
+        {
+          "value": "3.5169",
+          "count": 6
+        },
+        {
+          "value": "3.7976",
+          "count": 3
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "heatPumpType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 4,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 6120
+        },
+        {
+          "value": "AirHeatPump",
+          "count": 654
+        },
+        {
+          "value": "GroundHeatPump",
+          "count": 17
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "heatPumpEquipType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 4,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 6140
+        },
+        {
+          "value": "Central split system",
+          "count": 405
+        },
+        {
+          "value": "Mini-split ductless",
+          "count": 241
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "heatPumpMode",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 3,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 6120
+        },
+        {
+          "value": "Heating/Cooling",
+          "count": 655
+        },
+        {
+          "value": "Heating",
+          "count": 19
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "heatPumpHeatingEff",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 105,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 6120
+        },
+        {
+          "value": "2.0",
+          "count": 183
+        },
+        {
+          "value": "5.9",
+          "count": 134
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "heatPumpHeatingEffType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "COP",
+          "count": 6794
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "heatPumpCoolingEff",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 77,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 6120
+        },
+        {
+          "value": "10.0",
+          "count": 155
+        },
+        {
+          "value": "3.0",
+          "count": 104
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "heatPumpCoolingEffType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 3,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 6139
+        },
+        {
+          "value": "false",
+          "count": 480
+        },
+        {
+          "value": "true",
+          "count": 175
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "heatPumpCapacity",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 189,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 6120
+        },
+        {
+          "value": "3.5169",
+          "count": 67
+        },
+        {
+          "value": "7.0337",
+          "count": 58
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "coldClimateHeatPump",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 6120
+        },
+        {
+          "value": "false",
+          "count": 674
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "heatPumpRestrictedTemp",
+      "rows": 6794,
+      "blank_count": 6657,
+      "distinct_nonblank": 14,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "",
+          "count": 6657
+        },
+        {
+          "value": "-12.0",
+          "count": 47
+        },
+        {
+          "value": "-15.0",
+          "count": 33
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": -25.0,
+      "max": -10.0,
+      "mean": -16.583940875912404
+    },
+    {
+      "field": "primaryDhwFuel",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 5,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "Natural gas",
+          "count": 3342
+        },
+        {
+          "value": "Electricity",
+          "count": 3259
+        },
+        {
+          "value": "Oil",
+          "count": 139
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "primaryDhwTankType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 13,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "Conventional tank",
+          "count": 3135
+        },
+        {
+          "value": "Conventional tank (pilot)",
+          "count": 1665
+        },
+        {
+          "value": "Conserver tank",
+          "count": 771
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "primaryDhwTankVolume",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 227,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "189.3",
+          "count": 2003
+        },
+        {
+          "value": "151.3998",
+          "count": 1621
+        },
+        {
+          "value": "151.4",
+          "count": 1021
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1512.9381,
+      "mean": 181.70117786282023
+    },
+    {
+      "field": "primaryDhwEF",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 180,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.82",
+          "count": 1434
+        },
+        {
+          "value": "0.55",
+          "count": 928
+        },
+        {
+          "value": "0.554",
+          "count": 557
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.4,
+      "max": 1.0,
+      "mean": 0.7007132617015022
+    },
+    {
+      "field": "primaryDhwIsUEF",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "false",
+          "count": 6786
+        },
+        {
+          "value": "true",
+          "count": 8
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "primaryDhwPilotLight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 9,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 4923
+        },
+        {
+          "value": "17.6996",
+          "count": 1615
+        },
+        {
+          "value": "17.7",
+          "count": 242
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 100.0,
+      "mean": 4.931079216956138
+    },
+    {
+      "field": "primaryDhwFlueDiameter",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 12,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 4217
+        },
+        {
+          "value": "76.2",
+          "count": 2482
+        },
+        {
+          "value": "152.4",
+          "count": 46
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 228.6,
+      "mean": 29.59443332352075
+    },
+    {
+      "field": "primaryHasDwhr",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "false",
+          "count": 6790
+        },
+        {
+          "value": "true",
+          "count": 4
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "secondaryDhwFuel",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 5,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 6496
+        },
+        {
+          "value": "Electricity",
+          "count": 233
+        },
+        {
+          "value": "Natural gas",
+          "count": 62
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "secondaryDhwTankType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 10,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 6496
+        },
+        {
+          "value": "Conventional tank",
+          "count": 197
+        },
+        {
+          "value": "Conserver tank",
+          "count": 46
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "secondaryDhwTankVolume",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 29,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6500
+        },
+        {
+          "value": "189.3",
+          "count": 126
+        },
+        {
+          "value": "151.4",
+          "count": 51
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 644.1808,
+      "mean": 8.598119178687078
+    },
+    {
+      "field": "secondaryDhwEF",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 53,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 6496
+        },
+        {
+          "value": "0.8217",
+          "count": 86
+        },
+        {
+          "value": "0.5543",
+          "count": 29
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 0.98,
+      "mean": 0.03395123638504563
+    },
+    {
+      "field": "secondaryDhwIsUEF",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 6496
+        },
+        {
+          "value": "false",
+          "count": 298
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "secondaryDhwPilotLight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6754
+        },
+        {
+          "value": "17.6996",
+          "count": 40
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 17.6996,
+      "mean": 0.10420724168383869
+    },
+    {
+      "field": "secondaryDhwFlueDiameter",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 3,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6741
+        },
+        {
+          "value": "76.2",
+          "count": 51
+        },
+        {
+          "value": "127",
+          "count": 2
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 127.0,
+      "mean": 0.6093906387989404
+    },
+    {
+      "field": "secondaryHasDwhr",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "false",
+          "count": 6794
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "generationPresent",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "false",
+          "count": 6774
+        },
+        {
+          "value": "true",
+          "count": 20
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "solarPvArraySize",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 22,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 6773
+        },
+        {
+          "value": "92.903",
+          "count": 1
+        },
+        {
+          "value": "12.5419",
+          "count": 1
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "solarPvArrayAngle",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 18,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 6773
+        },
+        {
+          "value": "30",
+          "count": 4
+        },
+        {
+          "value": "35",
+          "count": 2
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "solarPvArrayAzimuth",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 12,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 6773
+        },
+        {
+          "value": "0",
+          "count": 7
+        },
+        {
+          "value": "180",
+          "count": 5
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "solarPvEff",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 14,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 6773
+        },
+        {
+          "value": "11.0",
+          "count": 4
+        },
+        {
+          "value": "14.2",
+          "count": 3
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "solarPvNOCT",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 8,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 6773
+        },
+        {
+          "value": "45",
+          "count": 12
+        },
+        {
+          "value": "7.2222",
+          "count": 4
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "solarPvTempCoeff",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 9,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 6773
+        },
+        {
+          "value": "0.4",
+          "count": 6
+        },
+        {
+          "value": "1.296",
+          "count": 5
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "solarPvMiscLosses",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 5,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 6773
+        },
+        {
+          "value": "3",
+          "count": 16
+        },
+        {
+          "value": "5",
+          "count": 3
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "solarPvInverterEff",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 6,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 6773
+        },
+        {
+          "value": "90",
+          "count": 10
+        },
+        {
+          "value": "95",
+          "count": 5
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "solarPvOtherLosses",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 3,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 6773
+        },
+        {
+          "value": "1",
+          "count": 17
+        },
+        {
+          "value": "0",
+          "count": 4
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "solarPvGridAbsorpitionRate",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 4,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 6773
+        },
+        {
+          "value": "90",
+          "count": 13
+        },
+        {
+          "value": "100",
+          "count": 6
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "hrvPresent",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "false",
+          "count": 6050
+        },
+        {
+          "value": "true",
+          "count": 744
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "hrvTotalSupply",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 114,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6050
+        },
+        {
+          "value": "27.9865",
+          "count": 335
+        },
+        {
+          "value": "28",
+          "count": 68
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 133.0892,
+      "mean": 3.72899498086547
+    },
+    {
+      "field": "hrvTotalReturn",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 114,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6050
+        },
+        {
+          "value": "27.9865",
+          "count": 335
+        },
+        {
+          "value": "28",
+          "count": 68
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 133.0892,
+      "mean": 3.72899498086547
+    },
+    {
+      "field": "hrvEff1",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 33,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6057
+        },
+        {
+          "value": "55",
+          "count": 362
+        },
+        {
+          "value": "64",
+          "count": 93
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 88.0,
+      "mean": 6.545775684427436
+    },
+    {
+      "field": "hrvTemp1",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6794
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    {
+      "field": "hrvEff2",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 40,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6057
+        },
+        {
+          "value": "45",
+          "count": 364
+        },
+        {
+          "value": "64",
+          "count": 95
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 81.0,
+      "mean": 5.800264939652635
+    },
+    {
+      "field": "hrvTemp2",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 3,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6050
+        },
+        {
+          "value": "-25",
+          "count": 743
+        },
+        {
+          "value": "-15",
+          "count": 1
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": -25.0,
+      "max": 0.0,
+      "mean": -2.7362378569325876
+    },
+    {
+      "field": "wholeBathroomVentCount",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 6,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6210
+        },
+        {
+          "value": "1",
+          "count": 447
+        },
+        {
+          "value": "2",
+          "count": 73
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 5.0,
+      "mean": 0.11981159846923756
+    },
+    {
+      "field": "wholeBathroomVentTotalExhaust",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 34,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6210
+        },
+        {
+          "value": "33.0",
+          "count": 127
+        },
+        {
+          "value": "106.1882",
+          "count": 102
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 247.7724,
+      "mean": 6.613643744480423
+    },
+    {
+      "field": "wholeRangeVentCount",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 4,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6296
+        },
+        {
+          "value": "1",
+          "count": 490
+        },
+        {
+          "value": "2",
+          "count": 7
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 3.0,
+      "mean": 0.07462466882543421
+    },
+    {
+      "field": "wholeRangeVentTotalExhaust",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 15,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6296
+        },
+        {
+          "value": "70.7921",
+          "count": 255
+        },
+        {
+          "value": "75.0",
+          "count": 162
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 300.0,
+      "mean": 5.632521239328819
+    },
+    {
+      "field": "wholeUtilityVentCount",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 3,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6398
+        },
+        {
+          "value": "1",
+          "count": 394
+        },
+        {
+          "value": "2",
+          "count": 2
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 2.0,
+      "mean": 0.05858110097144539
+    },
+    {
+      "field": "wholeUtilityVentTotalSupply",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 44,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6398
+        },
+        {
+          "value": "0.0",
+          "count": 175
+        },
+        {
+          "value": "27.9865",
+          "count": 57
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 127.5674,
+      "mean": 0.9608872828966736
+    },
+    {
+      "field": "wholeUtilityVentTotalExhaust",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 48,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6398
+        },
+        {
+          "value": "2.3597",
+          "count": 63
+        },
+        {
+          "value": "27.9865",
+          "count": 56
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 90.0004,
+      "mean": 1.205253311745658
+    },
+    {
+      "field": "supplBathroomVentCount",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 7,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 2809
+        },
+        {
+          "value": "2",
+          "count": 2009
+        },
+        {
+          "value": "1",
+          "count": 1627
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 7.0,
+      "mean": 0.9982337356491021
+    },
+    {
+      "field": "supplBathroomVentTotalExhaust",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 72,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 2810
+        },
+        {
+          "value": "66.0",
+          "count": 1950
+        },
+        {
+          "value": "33.0",
+          "count": 1329
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 527.9676,
+      "mean": 34.70306362967326
+    },
+    {
+      "field": "supplRangeVentCount",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 6,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "1",
+          "count": 3376
+        },
+        {
+          "value": "0",
+          "count": 3303
+        },
+        {
+          "value": "2",
+          "count": 103
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 6.0,
+      "mean": 0.5331174565793347
+    },
+    {
+      "field": "supplRangeVentTotalExhaust",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 47,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 3303
+        },
+        {
+          "value": "75.0",
+          "count": 2894
+        },
+        {
+          "value": "150.0",
+          "count": 144
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 2324.9924,
+      "mean": 43.21429122755372
+    },
+    {
+      "field": "supplUtilityVentCount",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 3,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5783
+        },
+        {
+          "value": "1",
+          "count": 1009
+        },
+        {
+          "value": "2",
+          "count": 2
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 2.0,
+      "mean": 0.14910214895496027
+    },
+    {
+      "field": "supplUtilityVentTotalSupply",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 12,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5783
+        },
+        {
+          "value": "0.0",
+          "count": 996
+        },
+        {
+          "value": "2.3597",
+          "count": 3
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 32.0924,
+      "mean": 0.02527144539299382
+    },
+    {
+      "field": "supplUtilityVentTotalExhaust",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 109,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5783
+        },
+        {
+          "value": "75.0018",
+          "count": 258
+        },
+        {
+          "value": "25.0",
+          "count": 120
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 471.9471,
+      "mean": 6.7711151309979405
+    },
+    {
+      "field": "dryerVentCount",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "1",
+          "count": 6789
+        },
+        {
+          "value": "0",
+          "count": 5
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.9992640565204592
+    },
+    {
+      "field": "dryerVentTotalExhaust",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 17,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "38.0",
+          "count": 5725
+        },
+        {
+          "value": "1.2",
+          "count": 534
+        },
+        {
+          "value": "76.0",
+          "count": 234
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 342.0,
+      "mean": 37.77511033264645
+    },
+    {
+      "field": "basementConfig",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 15,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "BCCB_4",
+          "count": 5466
+        },
+        {
+          "value": "None",
+          "count": 1136
+        },
+        {
+          "value": "BCCB_8",
+          "count": 81
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "basementPerimeter",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1309,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 1136
+        },
+        {
+          "value": "39.02",
+          "count": 108
+        },
+        {
+          "value": "37.8",
+          "count": 108
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 121.47,
+      "mean": 33.494118339711434
+    },
+    {
+      "field": "basementExpPerimeter",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2102,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 1136
+        },
+        {
+          "value": "34.1385",
+          "count": 44
+        },
+        {
+          "value": "37.7961",
+          "count": 41
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 103.78439999999999,
+      "mean": 30.592396982631687
+    },
+    {
+      "field": "basementFloorArea",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 3861,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 1136
+        },
+        {
+          "value": "78.0386",
+          "count": 19
+        },
+        {
+          "value": "61.316",
+          "count": 18
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 450.0223,
+      "mean": 69.66671934195341
+    },
+    {
+      "field": "basementWallHeight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 697,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 1136
+        },
+        {
+          "value": "2.4384",
+          "count": 785
+        },
+        {
+          "value": "2.286",
+          "count": 647
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 5.4864,
+      "mean": 1.8860170331158914
+    },
+    {
+      "field": "basementWallDepth",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 960,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 1136
+        },
+        {
+          "value": "1.524",
+          "count": 351
+        },
+        {
+          "value": "1.8288",
+          "count": 344
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 2.8773,
+      "mean": 1.252607085345413
+    },
+    {
+      "field": "basementIntWallInsAreaFrac",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 95,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "1.0",
+          "count": 3669
+        },
+        {
+          "value": "0.0",
+          "count": 1884
+        },
+        {
+          "value": "0.5",
+          "count": 220
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.6600397409478957
+    },
+    {
+      "field": "basementExtWallInsAreaFrac",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 28,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6648
+        },
+        {
+          "value": "1.0",
+          "count": 112
+        },
+        {
+          "value": "0.5",
+          "count": 4
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.018806299676184867
+    },
+    {
+      "field": "basementPonyWallHeight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 429,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 5829
+        },
+        {
+          "value": "1.2192",
+          "count": 88
+        },
+        {
+          "value": "0.9144",
+          "count": 64
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 2.3165,
+      "mean": 0.12160206076875633
+    },
+    {
+      "field": "basementPonyWallInsAreaFrac",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6794
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    {
+      "field": "isBasementHeated",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "True",
+          "count": 5688
+        },
+        {
+          "value": "False",
+          "count": 1106
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "basementSeparateThermostat",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "False",
+          "count": 4912
+        },
+        {
+          "value": "True",
+          "count": 1882
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "crawlspaceConfig",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 22,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 5535
+        },
+        {
+          "value": "SCN_1",
+          "count": 986
+        },
+        {
+          "value": "SCA_17",
+          "count": 158
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "crawlspaceVentType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 4,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "3",
+          "count": 5535
+        },
+        {
+          "value": "Closed",
+          "count": 641
+        },
+        {
+          "value": "Vented",
+          "count": 344
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "crawlspacePerimeter",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 566,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5535
+        },
+        {
+          "value": "47.55",
+          "count": 24
+        },
+        {
+          "value": "49.99",
+          "count": 24
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 92.66,
+      "mean": 7.117970267883427
+    },
+    {
+      "field": "crawlspaceExpPerimeter",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 696,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5535
+        },
+        {
+          "value": "46.3296",
+          "count": 19
+        },
+        {
+          "value": "52.4256",
+          "count": 17
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 78.9441,
+      "mean": 6.419731498380918
+    },
+    {
+      "field": "crawlspaceFloorArea",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1010,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5535
+        },
+        {
+          "value": "76.0876",
+          "count": 21
+        },
+        {
+          "value": "93.3676",
+          "count": 15
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 293.5225,
+      "mean": 12.46617985835001
+    },
+    {
+      "field": "crawlspaceWallHeight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 228,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5535
+        },
+        {
+          "value": "0.6096",
+          "count": 240
+        },
+        {
+          "value": "0.762",
+          "count": 120
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1.2192,
+      "mean": 0.15080261490448008
+    },
+    {
+      "field": "crawlspaceWallDepth",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 203,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5535
+        },
+        {
+          "value": "0.0",
+          "count": 647
+        },
+        {
+          "value": "0.6492",
+          "count": 87
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1.1704,
+      "mean": 0.046451863556024375
+    },
+    {
+      "field": "crawlspaceWallInsAreaFrac",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6794
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    {
+      "field": "isCrawlspaceHeated",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "False",
+          "count": 6649
+        },
+        {
+          "value": "True",
+          "count": 145
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "slabConfig",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 21,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 6287
+        },
+        {
+          "value": "SCN_1",
+          "count": 273
+        },
+        {
+          "value": "SCA_17",
+          "count": 91
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "slabPerimeter",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 352,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6287
+        },
+        {
+          "value": "22.56",
+          "count": 8
+        },
+        {
+          "value": "25.61",
+          "count": 7
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 158.5,
+      "mean": 2.4938092434501016
+    },
+    {
+      "field": "slabExpPerimeter",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 385,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6287
+        },
+        {
+          "value": "13.4112",
+          "count": 6
+        },
+        {
+          "value": "5.4864",
+          "count": 5
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 124.0536,
+      "mean": 2.1098755519576065
+    },
+    {
+      "field": "slabArea",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 459,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6287
+        },
+        {
+          "value": "13.378",
+          "count": 4
+        },
+        {
+          "value": "32.1547",
+          "count": 4
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 314.9878,
+      "mean": 4.6841093312304976
+    },
+    {
+      "field": "ceilingConstType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 29,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "Attic/gable",
+          "count": 2966
+        },
+        {
+          "value": "Attic/hip",
+          "count": 1427
+        },
+        {
+          "value": "Attic/gable,Cathedral",
+          "count": 1084
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "ceilingLength",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2382,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 540
+        },
+        {
+          "value": "24.384",
+          "count": 71
+        },
+        {
+          "value": "23.7744",
+          "count": 63
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 193.4444,
+      "mean": 27.530855843391254
+    },
+    {
+      "field": "ceilingArea",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 4296,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 540
+        },
+        {
+          "value": "10.0001",
+          "count": 27
+        },
+        {
+          "value": "76.0876",
+          "count": 16
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1060.12,
+      "mean": 81.15858798940243
+    },
+    {
+      "field": "ceilingRoofSlope",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 55,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.3333",
+          "count": 4164
+        },
+        {
+          "value": "0.333",
+          "count": 951
+        },
+        {
+          "value": "0.0",
+          "count": 540
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 12.0,
+      "mean": 0.34853441271710345
+    },
+    {
+      "field": "ceilingHeelHeight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 79,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.1006",
+          "count": 2404
+        },
+        {
+          "value": "0.1311",
+          "count": 2072
+        },
+        {
+          "value": "0.0",
+          "count": 547
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 0.9144,
+      "mean": 0.13373766558728284
+    },
+    {
+      "field": "ceilingFlatLength",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1120,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 4757
+        },
+        {
+          "value": "17.6784",
+          "count": 25
+        },
+        {
+          "value": "15.24",
+          "count": 22
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 101.3156,
+      "mean": 4.279391742714159
+    },
+    {
+      "field": "ceilingFlatArea",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1689,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 4757
+        },
+        {
+          "value": "21.3677",
+          "count": 8
+        },
+        {
+          "value": "10.0001",
+          "count": 7
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 452.2798,
+      "mean": 15.355028539888172
+    },
+    {
+      "field": "ceilingFlatRoofSlope",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 54,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 4757
+        },
+        {
+          "value": "0.3333",
+          "count": 803
+        },
+        {
+          "value": "0.0",
+          "count": 558
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 12.0,
+      "mean": 0.10791176037680308
+    },
+    {
+      "field": "ceilingFlatHeelHeight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 58,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 4757
+        },
+        {
+          "value": "0.0",
+          "count": 1282
+        },
+        {
+          "value": "0.1006",
+          "count": 162
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 20.4216,
+      "mean": 0.02567465410656461
+    },
+    {
+      "field": "expFloorArea",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1008,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 4760
+        },
+        {
+          "value": "1.1148",
+          "count": 40
+        },
+        {
+          "value": "1.4864",
+          "count": 28
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 364.73729999999995,
+      "mean": 3.8253197380041186
+    },
+    {
+      "field": "expFloorLength",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 940,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 4760
+        },
+        {
+          "value": "3.048",
+          "count": 49
+        },
+        {
+          "value": "1.8288",
+          "count": 39
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 50.3408,
+      "mean": 1.6466899175743277
+    },
+    {
+      "field": "bufferedExpFloorArea",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 554,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 5903
+        },
+        {
+          "value": "18.5806",
+          "count": 13
+        },
+        {
+          "value": "22.2967",
+          "count": 13
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 162.3573,
+      "mean": 3.0934239917574327
+    },
+    {
+      "field": "bufferedExpFloorLength",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 432,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 5903
+        },
+        {
+          "value": "5.7912",
+          "count": 36
+        },
+        {
+          "value": "6.096",
+          "count": 35
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 45.7413,
+      "mean": 0.7709159699735061
+    },
+    {
+      "field": "wallArea",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 5173,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "101.07850752000002",
+          "count": 33
+        },
+        {
+          "value": "98.10561024000002",
+          "count": 32
+        },
+        {
+          "value": "96.61916160000001",
+          "count": 29
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 860.37505344,
+      "mean": 145.85652994354555
+    },
+    {
+      "field": "wallPerimeter",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 3413,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "40.2336",
+          "count": 51
+        },
+        {
+          "value": "41.4528",
+          "count": 45
+        },
+        {
+          "value": "37.7952",
+          "count": 42
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 309.372,
+      "mean": 60.79589088901954
+    },
+    {
+      "field": "wallEqHeight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2958,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "2.4384",
+          "count": 2233
+        },
+        {
+          "value": "2.4384000000000006",
+          "count": 214
+        },
+        {
+          "value": "2.4383999999999997",
+          "count": 187
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 13.837900000000001,
+      "mean": 2.4050271413517037
+    },
+    {
+      "field": "wallCornersTot",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 67,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "8.0",
+          "count": 2307
+        },
+        {
+          "value": "4.0",
+          "count": 1494
+        },
+        {
+          "value": "10.0",
+          "count": 532
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 85.0,
+      "mean": 9.277450691786871
+    },
+    {
+      "field": "wallIntersectionsTot",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 38,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "8.0",
+          "count": 2421
+        },
+        {
+          "value": "4.0",
+          "count": 1565
+        },
+        {
+          "value": "0.0",
+          "count": 953
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 62.0,
+      "mean": 6.428613482484545
+    },
+    {
+      "field": "bufferedWallArea",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 968,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 4880
+        },
+        {
+          "value": "14.8644864",
+          "count": 69
+        },
+        {
+          "value": "14.121262080000001",
+          "count": 46
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 401.26974864,
+      "mean": 5.969814781248151
+    },
+    {
+      "field": "bufferedWallPerimeter",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 556,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 4880
+        },
+        {
+          "value": "6.096",
+          "count": 103
+        },
+        {
+          "value": "7.3152",
+          "count": 63
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 87.1728,
+      "mean": 2.5768246688254357
+    },
+    {
+      "field": "bufferedWallEqHeight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 382,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 4880
+        },
+        {
+          "value": "2.4384",
+          "count": 941
+        },
+        {
+          "value": "2.7432",
+          "count": 116
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 9.4488,
+      "mean": 0.6605193825665482
+    },
+    {
+      "field": "bufferedWallCornersTot",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 20,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 5003
+        },
+        {
+          "value": "4.0",
+          "count": 919
+        },
+        {
+          "value": "1.0",
+          "count": 418
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 24.0,
+      "mean": 0.8887253458934354
+    },
+    {
+      "field": "bufferedWallIntersectionsTot",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 13,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 5200
+        },
+        {
+          "value": "4.0",
+          "count": 885
+        },
+        {
+          "value": "1.0",
+          "count": 449
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 20.0,
+      "mean": 0.7369738004121283
+    },
+    {
+      "field": "floorHeaderArea",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2448,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 2852
+        },
+        {
+          "value": "8.08256448",
+          "count": 19
+        },
+        {
+          "value": "9.7548192",
+          "count": 16
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 136.01005056,
+      "mean": 5.225119739627608
+    },
+    {
+      "field": "floorHeaderPerimeter",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1562,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 2852
+        },
+        {
+          "value": "35.3568",
+          "count": 50
+        },
+        {
+          "value": "34.1376",
+          "count": 43
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 168.7372,
+      "mean": 21.673632234324412
+    },
+    {
+      "field": "floorHeaderEqHeight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 151,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 2852
+        },
+        {
+          "value": "0.2286",
+          "count": 1101
+        },
+        {
+          "value": "0.23",
+          "count": 719
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 2.4384,
+      "mean": 0.13931983460573893
+    },
+    {
+      "field": "floorHeaderFoundationArea",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 3163,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 1108
+        },
+        {
+          "value": "8.63998272",
+          "count": 43
+        },
+        {
+          "value": "9.197400960000001",
+          "count": 40
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 97.5324948,
+      "mean": 7.45271927774507
+    },
+    {
+      "field": "floorHeaderFoundationPerimeter",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1939,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 1108
+        },
+        {
+          "value": "36.576",
+          "count": 81
+        },
+        {
+          "value": "41.4528",
+          "count": 80
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 376.428,
+      "mean": 31.446931586694163
+    },
+    {
+      "field": "floorHeaderFoundationEqHeight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 196,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.2286",
+          "count": 1682
+        },
+        {
+          "value": "0.0",
+          "count": 1108
+        },
+        {
+          "value": "0.23",
+          "count": 651
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 2.4384,
+      "mean": 0.19787579819963796
+    },
+    {
+      "field": "doorCount",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 18,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "2",
+          "count": 3367
+        },
+        {
+          "value": "3",
+          "count": 1634
+        },
+        {
+          "value": "1",
+          "count": 672
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 19.0,
+      "mean": 2.623344127171033
+    },
+    {
+      "field": "avgDoorWidth",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 723,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.864",
+          "count": 993
+        },
+        {
+          "value": "0.813",
+          "count": 496
+        },
+        {
+          "value": "0.838",
+          "count": 389
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 6.533,
+      "mean": 0.9705443037974679
+    },
+    {
+      "field": "avgDoorHeight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 363,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "2.032",
+          "count": 2367
+        },
+        {
+          "value": "2.083",
+          "count": 777
+        },
+        {
+          "value": "2.057",
+          "count": 338
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 8.407,
+      "mean": 2.0482955549013857
+    },
+    {
+      "field": "windowCountS",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 29,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 2009
+        },
+        {
+          "value": "4",
+          "count": 693
+        },
+        {
+          "value": "3",
+          "count": 650
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 43.0,
+      "mean": 3.3745952310862526
+    },
+    {
+      "field": "windowAreaS",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 4395,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 2009
+        },
+        {
+          "value": "0.49974403276800006",
+          "count": 26
+        },
+        {
+          "value": "0.24987201638400003",
+          "count": 24
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 84.5443521504801,
+      "mean": 4.167063128023354
+    },
+    {
+      "field": "windowCountSW",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 22,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 4894
+        },
+        {
+          "value": "4",
+          "count": 293
+        },
+        {
+          "value": "5",
+          "count": 255
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 38.0,
+      "mean": 1.315866941418899
+    },
+    {
+      "field": "windowAreaSW",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1826,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 4894
+        },
+        {
+          "value": "1.11483660192",
+          "count": 9
+        },
+        {
+          "value": "5.43998931304",
+          "count": 7
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 61.74697894420014,
+      "mean": 1.7372605584387972
+    },
+    {
+      "field": "windowCountW",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 25,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 2511
+        },
+        {
+          "value": "4",
+          "count": 721
+        },
+        {
+          "value": "3",
+          "count": 682
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 31.0,
+      "mean": 2.855755078010009
+    },
+    {
+      "field": "windowAreaW",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 4038,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 2511
+        },
+        {
+          "value": "0.55741830096",
+          "count": 14
+        },
+        {
+          "value": "1.48644864",
+          "count": 11
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 51.62312726916009,
+      "mean": 3.5439191713748466
+    },
+    {
+      "field": "windowCountNW",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 20,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5019
+        },
+        {
+          "value": "1",
+          "count": 284
+        },
+        {
+          "value": "4",
+          "count": 268
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 23.0,
+      "mean": 1.1461583750367972
+    },
+    {
+      "field": "windowAreaNW",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1700,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5019
+        },
+        {
+          "value": "0.55741830096",
+          "count": 7
+        },
+        {
+          "value": "0.4741926",
+          "count": 7
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 46.35797302935995,
+      "mean": 1.5136685403447563
+    },
+    {
+      "field": "windowCountN",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 24,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 2447
+        },
+        {
+          "value": "3",
+          "count": 710
+        },
+        {
+          "value": "4",
+          "count": 676
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 24.0,
+      "mean": 2.8994701206947306
+    },
+    {
+      "field": "windowAreaN",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 4074,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 2447
+        },
+        {
+          "value": "0.55741830096",
+          "count": 8
+        },
+        {
+          "value": "1.48644864",
+          "count": 8
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 92.64240192336,
+      "mean": 3.6957544078390736
+    },
+    {
+      "field": "windowCountNE",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 23,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 4881
+        },
+        {
+          "value": "4",
+          "count": 300
+        },
+        {
+          "value": "1",
+          "count": 284
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 35.0,
+      "mean": 1.2715631439505446
+    },
+    {
+      "field": "windowAreaNE",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1827,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 4881
+        },
+        {
+          "value": "0.4741926",
+          "count": 9
+        },
+        {
+          "value": "0.51096677588",
+          "count": 7
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 59.71794737107998,
+      "mean": 1.6553139180455338
+    },
+    {
+      "field": "windowCountE",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 24,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 2470
+        },
+        {
+          "value": "4",
+          "count": 737
+        },
+        {
+          "value": "3",
+          "count": 656
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 34.0,
+      "mean": 2.8383868118928466
+    },
+    {
+      "field": "windowAreaE",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 4058,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 2470
+        },
+        {
+          "value": "1.11483660192",
+          "count": 13
+        },
+        {
+          "value": "0.55741830096",
+          "count": 9
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 47.10184666480005,
+      "mean": 3.5584073238098264
+    },
+    {
+      "field": "windowCountSE",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 23,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 4975
+        },
+        {
+          "value": "4",
+          "count": 273
+        },
+        {
+          "value": "3",
+          "count": 271
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 24.0,
+      "mean": 1.2315278186635266
+    },
+    {
+      "field": "windowAreaSE",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1740,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 4975
+        },
+        {
+          "value": "0.4741926",
+          "count": 9
+        },
+        {
+          "value": "0.55741830096",
+          "count": 6
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 67.09922316984,
+      "mean": 1.579609681894523
+    },
+    {
+      "field": "skylightCount",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 14,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6205
+        },
+        {
+          "value": "1",
+          "count": 300
+        },
+        {
+          "value": "2",
+          "count": 156
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 25.0,
+      "mean": 0.1753017368266117
+    },
+    {
+      "field": "skylightArea",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 312,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6205
+        },
+        {
+          "value": "1.48644864",
+          "count": 46
+        },
+        {
+          "value": "0.74322432",
+          "count": 40
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 25.67994837076,
+      "mean": 0.18214469897598087
+    },
+    {
+      "field": "totWindowArea",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 6760,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "10.40707615304",
+          "count": 7
+        },
+        {
+          "value": "1.9292541804984",
+          "count": 4
+        },
+        {
+          "value": "12.71158767304",
+          "count": 4
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.9994880655360001,
+      "max": 159.26356841406042,
+      "mean": 21.694324147077968
+    },
+    {
+      "field": "glazingRatio",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 6773,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "7.68352029086283",
+          "count": 7
+        },
+        {
+          "value": "5.997513107040285",
+          "count": 4
+        },
+        {
+          "value": "6.5517011255456366",
+          "count": 2
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 1.0170773597978806,
+      "max": 105.04628973248076,
+      "mean": 11.784908531522543
+    },
+    {
+      "field": "dominantBasementWallType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 659,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 1884
+        },
+        {
+          "value": "210201",
+          "count": 909
+        },
+        {
+          "value": "211201",
+          "count": 357
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "dominantBasementWallRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2878,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 1884
+        },
+        {
+          "value": "2.11",
+          "count": 121
+        },
+        {
+          "value": "0.1045",
+          "count": 61
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 5.2534,
+      "mean": 0.9581305993033051
+    },
+    {
+      "field": "dominantBasementWallAreaFrac",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 94,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "1.0",
+          "count": 4817
+        },
+        {
+          "value": "0.0",
+          "count": 1884
+        },
+        {
+          "value": "0.796875",
+          "count": 2
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.7180079603455101
+    },
+    {
+      "field": "dominantBasementExtWallType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 38,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 6648
+        },
+        {
+          "value": "UserSpecified_0.02",
+          "count": 49
+        },
+        {
+          "value": "UserSpecified_0.0",
+          "count": 23
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "dominantBasementExtWallRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 51,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6648
+        },
+        {
+          "value": "0.0176",
+          "count": 46
+        },
+        {
+          "value": "0.0018",
+          "count": 22
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 20.0,
+      "mean": 0.016108846040624077
+    },
+    {
+      "field": "dominantBasementExtWallAreaFrac",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 4,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6648
+        },
+        {
+          "value": "1.0",
+          "count": 144
+        },
+        {
+          "value": "0.7975599785872978",
+          "count": 1
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.021396055318972998
+    },
+    {
+      "field": "dominantFloorsAboveType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 695,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "4231000660",
+          "count": 3799
+        },
+        {
+          "value": "None",
+          "count": 267
+        },
+        {
+          "value": "4200000000",
+          "count": 233
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "dominantFloorsAboveRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1208,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.7058",
+          "count": 1036
+        },
+        {
+          "value": "0.7059",
+          "count": 892
+        },
+        {
+          "value": "0.7057",
+          "count": 614
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 8.4698,
+      "mean": 0.946255149151211
+    },
+    {
+      "field": "dominantFloorsAboveAreaFrac",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 433,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "1.0",
+          "count": 6093
+        },
+        {
+          "value": "0.0",
+          "count": 267
+        },
+        {
+          "value": "0.5",
+          "count": 3
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.9419863130871496
+    },
+    {
+      "field": "dominantPonyWallType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 461,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 5829
+        },
+        {
+          "value": "1211301121",
+          "count": 38
+        },
+        {
+          "value": "1201201121",
+          "count": 34
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "dominantPonyWallRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 892,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5829
+        },
+        {
+          "value": "0.1609",
+          "count": 26
+        },
+        {
+          "value": "0.1004",
+          "count": 9
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 8.7886,
+      "mean": 0.3268092508095379
+    },
+    {
+      "field": "dominantPonyWallAreaFrac",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 10,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5829
+        },
+        {
+          "value": "1.0",
+          "count": 957
+        },
+        {
+          "value": "0.6894448427115102",
+          "count": 1
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.14165801906400155
+    },
+    {
+      "field": "dominantCrawlspaceWallType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 405,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 5809
+        },
+        {
+          "value": "1610000000",
+          "count": 142
+        },
+        {
+          "value": "1200000000",
+          "count": 76
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "dominantCrawlspaceWallRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 526,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5809
+        },
+        {
+          "value": "0.2749",
+          "count": 138
+        },
+        {
+          "value": "0.3648",
+          "count": 76
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 10.9977,
+      "mean": 0.14612689873417736
+    },
+    {
+      "field": "dominantCrawlspaceWallAreaFrac",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 22,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5809
+        },
+        {
+          "value": "1.0",
+          "count": 965
+        },
+        {
+          "value": "0.5319371727748692",
+          "count": 1
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.1440991044120605
+    },
+    {
+      "field": "dominantSlabType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 60,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "User specified",
+          "count": 4375
+        },
+        {
+          "value": "Sp??????cifi?????? par l'utilisateur",
+          "count": 1112
+        },
+        {
+          "value": "None",
+          "count": 1058
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "dominantSlabRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 146,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 6184
+        },
+        {
+          "value": "0.0088",
+          "count": 66
+        },
+        {
+          "value": "0.8806",
+          "count": 54
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 20.0,
+      "mean": 0.06919723530566184
+    },
+    {
+      "field": "dominantSlabAreaFrac",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 36,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "1.0",
+          "count": 5702
+        },
+        {
+          "value": "0.0",
+          "count": 1058
+        },
+        {
+          "value": "0.8910891251606897",
+          "count": 1
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.8429958396659882
+    },
+    {
+      "field": "dominantCeilingType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1274,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 540
+        },
+        {
+          "value": "2403L01000",
+          "count": 158
+        },
+        {
+          "value": "2401301000",
+          "count": 145
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "dominantCeilingRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 5306,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 540
+        },
+        {
+          "value": "0.2976",
+          "count": 36
+        },
+        {
+          "value": "0.3776",
+          "count": 17
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 12.3277,
+      "mean": 4.25307571043078
+    },
+    {
+      "field": "dominantCeilingAreaFrac",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 546,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "1.0",
+          "count": 5699
+        },
+        {
+          "value": "0.0",
+          "count": 540
+        },
+        {
+          "value": "0.5",
+          "count": 12
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.8976869665165621
+    },
+    {
+      "field": "dominantCeilingFlatType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 624,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 4757
+        },
+        {
+          "value": "2231301000",
+          "count": 94
+        },
+        {
+          "value": "User specified",
+          "count": 86
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "dominantCeilingFlatRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1655,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 4757
+        },
+        {
+          "value": "0.3046",
+          "count": 120
+        },
+        {
+          "value": "0.2246",
+          "count": 89
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 12.993,
+      "mean": 0.8285604201419561
+    },
+    {
+      "field": "dominantCeilingFlatAreaFrac",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 170,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 4757
+        },
+        {
+          "value": "1.0",
+          "count": 1865
+        },
+        {
+          "value": "0.5",
+          "count": 5
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.2927135255074998
+    },
+    {
+      "field": "dominantExpFloorType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 856,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 4760
+        },
+        {
+          "value": "3231306620",
+          "count": 122
+        },
+        {
+          "value": "3231304700",
+          "count": 89
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "dominantExpFloorRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1187,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 4760
+        },
+        {
+          "value": "2.8072",
+          "count": 26
+        },
+        {
+          "value": "0.7414",
+          "count": 16
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 7.8686,
+      "mean": 1.0862190645457477
+    },
+    {
+      "field": "dominantExpFloorAreaFrac",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 88,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 4760
+        },
+        {
+          "value": "1.0",
+          "count": 1946
+        },
+        {
+          "value": "0.5333333333333333",
+          "count": 2
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.29625594057354215
+    },
+    {
+      "field": "dominantExpFloorBuffType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 493,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 5903
+        },
+        {
+          "value": "3231306620",
+          "count": 43
+        },
+        {
+          "value": "3231506620",
+          "count": 28
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "dominantExpFloorBuffRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 597,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 5903
+        },
+        {
+          "value": "2.8072",
+          "count": 21
+        },
+        {
+          "value": "0.6305",
+          "count": 10
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 10.5666,
+      "mean": 0.5042224143852413
+    },
+    {
+      "field": "dominantExpFloorBuffAreaFrac",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 26,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 5903
+        },
+        {
+          "value": "1.0",
+          "count": 867
+        },
+        {
+          "value": "0.8872836326078571",
+          "count": 1
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.13051507270947552
+    },
+    {
+      "field": "dominantWallType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1664,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "1201201141",
+          "count": 407
+        },
+        {
+          "value": "1211301121",
+          "count": 292
+        },
+        {
+          "value": "1201201121",
+          "count": 279
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "dominantWallRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 3466,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "1.113",
+          "count": 58
+        },
+        {
+          "value": "1.592",
+          "count": 49
+        },
+        {
+          "value": "1.7752",
+          "count": 42
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.35456666666666664,
+      "max": 6.4323999999999995,
+      "mean": 2.3529077037431994
+    },
+    {
+      "field": "dominantWallLintelType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 42,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "100",
+          "count": 5528
+        },
+        {
+          "value": "101",
+          "count": 520
+        },
+        {
+          "value": "None",
+          "count": 202
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "dominantWallAreaFrac",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2852,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "1.0",
+          "count": 3746
+        },
+        {
+          "value": "0.5",
+          "count": 118
+        },
+        {
+          "value": "0.6129032258064516",
+          "count": 7
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.26242024664349084,
+      "max": 1.0,
+      "mean": 0.8789900204739987
+    },
+    {
+      "field": "dominantFloorHeaderType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 748,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 678
+        },
+        {
+          "value": "1800100520",
+          "count": 618
+        },
+        {
+          "value": "1800000520",
+          "count": 360
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "dominantFloorHeaderRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2784,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 678
+        },
+        {
+          "value": "0.6878",
+          "count": 356
+        },
+        {
+          "value": "0.9866",
+          "count": 115
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 13.6,
+      "mean": 2.298136484643312
+    },
+    {
+      "field": "dominantFloorHeaderAreaFrac",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2447,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "1.0",
+          "count": 3073
+        },
+        {
+          "value": "0.0",
+          "count": 678
+        },
+        {
+          "value": "0.5",
+          "count": 271
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.7092013496711347
+    },
+    {
+      "field": "dominantWindowType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 441,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "200004",
+          "count": 517
+        },
+        {
+          "value": "200024",
+          "count": 504
+        },
+        {
+          "value": "200014",
+          "count": 415
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "dominantWindowRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 6050,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.263",
+          "count": 61
+        },
+        {
+          "value": "0.375",
+          "count": 19
+        },
+        {
+          "value": "0.3408",
+          "count": 19
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.11405,
+      "max": 1.03695,
+      "mean": 0.3669805750315204
+    },
+    {
+      "field": "dominantWindowShgc",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 6434,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.56",
+          "count": 61
+        },
+        {
+          "value": "0.54",
+          "count": 19
+        },
+        {
+          "value": "0.6033",
+          "count": 18
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.09784999999999999,
+      "max": 0.7949,
+      "mean": 0.5654908839412495
+    },
+    {
+      "field": "dominantWindowAreaFrac",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 6333,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "1.0",
+          "count": 435
+        },
+        {
+          "value": "0.6201103350353465",
+          "count": 7
+        },
+        {
+          "value": "0.81575387111764",
+          "count": 4
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.1339790794099951,
+      "max": 1.0,
+      "mean": 0.6606857683450785
+    },
+    {
+      "field": "dominantDoorType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 9,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "4",
+          "count": 3233
+        },
+        {
+          "value": "5",
+          "count": 1823
+        },
+        {
+          "value": "2",
+          "count": 1070
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "dominantDoorRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 20,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.98",
+          "count": 3221
+        },
+        {
+          "value": "1.14",
+          "count": 1819
+        },
+        {
+          "value": "0.39",
+          "count": 854
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 2.1,
+      "mean": 0.8795478363261702
+    },
+    {
+      "field": "dominantDoorAreaFrac",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1261,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "1.0",
+          "count": 4805
+        },
+        {
+          "value": "0.5",
+          "count": 287
+        },
+        {
+          "value": "0.6666666666666667",
+          "count": 92
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.8885252902312367
+    },
+    {
+      "field": "equivBasementWallRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 3175,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 1884
+        },
+        {
+          "value": "2.11",
+          "count": 118
+        },
+        {
+          "value": "0.1045",
+          "count": 44
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 5.2534,
+      "mean": 0.9515498956527417
+    },
+    {
+      "field": "equivExtBasementWallRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 53,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6648
+        },
+        {
+          "value": "0.0176",
+          "count": 46
+        },
+        {
+          "value": "0.0018",
+          "count": 18
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 20.0,
+      "mean": 0.015970935927259233
+    },
+    {
+      "field": "equivBasementFloorsAboveRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1750,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.7058",
+          "count": 986
+        },
+        {
+          "value": "0.7059",
+          "count": 721
+        },
+        {
+          "value": "0.7057",
+          "count": 525
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 8.4698,
+      "mean": 0.9440543867807353
+    },
+    {
+      "field": "equivPonyWallRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 896,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5829
+        },
+        {
+          "value": "0.1609",
+          "count": 24
+        },
+        {
+          "value": "0.1004",
+          "count": 8
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 8.7886,
+      "mean": 0.32669623076457033
+    },
+    {
+      "field": "equivCrawlspaceWallRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 557,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5809
+        },
+        {
+          "value": "0.2749",
+          "count": 134
+        },
+        {
+          "value": "0.3648",
+          "count": 68
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 10.9977,
+      "mean": 0.14560694576969654
+    },
+    {
+      "field": "equivSlabRVal",
+      "rows": 6794,
+      "blank_count": 2,
+      "distinct_nonblank": 211,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6167
+        },
+        {
+          "value": "0.0088",
+          "count": 66
+        },
+        {
+          "value": "0.8806",
+          "count": 48
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 20.0,
+      "mean": 0.0668685741007027
+    },
+    {
+      "field": "equivCeilingRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 5528,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 540
+        },
+        {
+          "value": "0.2976",
+          "count": 29
+        },
+        {
+          "value": "0.3776",
+          "count": 12
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 11.3998,
+      "mean": 4.230065369343015
+    },
+    {
+      "field": "equivCeilingFlatRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1725,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 4757
+        },
+        {
+          "value": "0.3046",
+          "count": 97
+        },
+        {
+          "value": "0.2246",
+          "count": 64
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 12.993,
+      "mean": 0.8209812985004683
+    },
+    {
+      "field": "equivExpFloorRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1359,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 4762
+        },
+        {
+          "value": "2.8072",
+          "count": 24
+        },
+        {
+          "value": "0.7414",
+          "count": 14
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 7.868599999999999,
+      "mean": 1.0838514598049025
+    },
+    {
+      "field": "equivExpFloorBuffRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 650,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 5903
+        },
+        {
+          "value": "2.8072",
+          "count": 18
+        },
+        {
+          "value": "0.6305",
+          "count": 10
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 10.5666,
+      "mean": 0.5031995433438357
+    },
+    {
+      "field": "equivWallRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 5647,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "1.113",
+          "count": 39
+        },
+        {
+          "value": "1.592",
+          "count": 31
+        },
+        {
+          "value": "2.0851",
+          "count": 19
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.44200000000000006,
+      "max": 6.488513705894351,
+      "mean": 2.351608108171365
+    },
+    {
+      "field": "equivFloorHeaderRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 5008,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 678
+        },
+        {
+          "value": "0.48",
+          "count": 52
+        },
+        {
+          "value": "0.9866",
+          "count": 47
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 11.786409773496226,
+      "mean": 2.21974738746547
+    },
+    {
+      "field": "equivDoorRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1574,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.98",
+          "count": 1710
+        },
+        {
+          "value": "1.14",
+          "count": 1119
+        },
+        {
+          "value": "0.9799999999999999",
+          "count": 484
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 2.1,
+      "mean": 0.8211565875597866
+    }
+  ]
+}

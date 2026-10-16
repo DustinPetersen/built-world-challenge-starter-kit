@@ -1,0 +1,53 @@
+[
+  {
+    "upstream_path": "README.md",
+    "url": "https://raw.githubusercontent.com/canmet-energy/housing-archetypes/70e8fe245506f72bc6354b5aa37e51ead9bb88f3/README.md",
+    "commit": "70e8fe245506f72bc6354b5aa37e51ead9bb88f3",
+    "sha256": "b6fd72960a48fa436a13bf44b2e3c2f0912090a96b75922b45cf95da9c91f228",
+    "bytes": 2105,
+    "retrieved_date": "2026-10-15",
+    "license": "Open Government Licence - Canada"
+  },
+  {
+    "upstream_path": "license.md",
+    "url": "https://raw.githubusercontent.com/canmet-energy/housing-archetypes/70e8fe245506f72bc6354b5aa37e51ead9bb88f3/license.md",
+    "commit": "70e8fe245506f72bc6354b5aa37e51ead9bb88f3",
+    "sha256": "e64eaed3db6c2f0acf0dbdc017d54cd37e64c304e778cbfb64870c84d47cc976",
+    "bytes": 3752,
+    "retrieved_date": "2026-10-15",
+    "license": "Open Government Licence - Canada"
+  },
+  {
+    "upstream_path": "data/tables/base_archetype_description.csv",
+    "url": "https://raw.githubusercontent.com/canmet-energy/housing-archetypes/70e8fe245506f72bc6354b5aa37e51ead9bb88f3/data/tables/base_archetype_description.csv",
+    "commit": "70e8fe245506f72bc6354b5aa37e51ead9bb88f3",
+    "sha256": "831f01889c661d6e3e58d68823a95d6740a09bf6c7c926a2b213245dcafd7689",
+    "bytes": 10234319,
+    "retrieved_date": "2026-10-15",
+    "license": "Open Government Licence - Canada",
+    "data_rows": 6794,
+    "columns": 256
+  },
+  {
+    "upstream_path": "data/tables/extra_data_heating_sys.csv",
+    "url": "https://raw.githubusercontent.com/canmet-energy/housing-archetypes/70e8fe245506f72bc6354b5aa37e51ead9bb88f3/data/tables/extra_data_heating_sys.csv",
+    "commit": "70e8fe245506f72bc6354b5aa37e51ead9bb88f3",
+    "sha256": "541e0d69837af87e56a362974f45b1d0efe3e4d2b17690e1e60d836c7c6b3ccd",
+    "bytes": 1636687,
+    "retrieved_date": "2026-10-15",
+    "license": "Open Government Licence - Canada",
+    "data_rows": 6794,
+    "columns": 85
+  },
+  {
+    "upstream_path": "data/tables/extra_data_windows.csv",
+    "url": "https://raw.githubusercontent.com/canmet-energy/housing-archetypes/70e8fe245506f72bc6354b5aa37e51ead9bb88f3/data/tables/extra_data_windows.csv",
+    "commit": "70e8fe245506f72bc6354b5aa37e51ead9bb88f3",
+    "sha256": "3b5c49a30da6f2d9d51ec8b195d71748bbb8acc26075127083575f3b60362235",
+    "bytes": 5988859,
+    "retrieved_date": "2026-10-15",
+    "license": "Open Government Licence - Canada",
+    "data_rows": 6794,
+    "columns": 199
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "id": "SLAB-001",
+    "synthetic": true,
+    "length_m": 7,
+    "width_m": 6,
+    "thickness_mm": 100,
+    "expected_volume_m3": 4.2,
+    "scope": "slab only",
+    "source": "plans/SLAB-001.svg"
+  },
+  {
+    "id": "SLAB-002",
+    "synthetic": true,
+    "length_m": 8,
+    "width_m": 7,
+    "thickness_mm": 120,
+    "expected_volume_m3": 6.72,
+    "scope": "slab only",
+    "source": "plans/SLAB-002.svg"
+  },
+  {
+    "id": "SLAB-003",
+    "synthetic": true,
+    "length_m": 9,
+    "width_m": 8,
+    "thickness_mm": 140,
+    "expected_volume_m3": 10.08,
+    "scope": "slab only",
+    "source": "plans/SLAB-003.svg"
+  },
+  {
+    "id": "SLAB-004",
+    "synthetic": true,
+    "length_m": 10,
+    "width_m": 9,
+    "thickness_mm": 160,
+    "expected_volume_m3": 14.4,
+    "scope": "slab only",
+    "source": "plans/SLAB-004.svg"
+  },
+  {
+    "id": "SLAB-005",
+    "synthetic": true,
+    "length_m": 11,
+    "width_m": 10,
+    "thickness_mm": 80,
+    "expected_volume_m3": 8.8,
+    "scope": "slab only",
+    "source": "plans/SLAB-005.svg"
+  },
+  {
+    "id": "SLAB-006",
+    "synthetic": true,
+    "length_m": 12,
+    "width_m": 11,
+    "thickness_mm": 100,
+    "expected_volume_m3": 13.2,
+    "scope": "slab only",
+    "source": "plans/SLAB-006.svg"
+  },
+  {
+    "id": "SLAB-007",
+    "synthetic": true,
+    "length_m": 13,
+    "width_m": 5,
+    "thickness_mm": 120,
+    "expected_volume_m3": 7.8,
+    "scope": "slab only",
+    "source": "plans/SLAB-007.svg"
+  },
+  {
+    "id": "SLAB-008",
+    "synthetic": true,
+    "length_m": 14,
+    "width_m": 6,
+    "thickness_mm": 140,
+    "expected_volume_m3": 11.76,
+    "scope": "slab only",
+    "source": "plans/SLAB-008.svg"
+  },
+  {
+    "id": "SLAB-009",
+    "synthetic": true,
+    "length_m": 15,
+    "width_m": 7,
+    "thickness_mm": 160,
+    "expected_volume_m3": 16.8,
+    "scope": "slab only",
+    "source": "plans/SLAB-009.svg"
+  },
+  {
+    "id": "SLAB-010",
+    "synthetic": true,
+    "length_m": 6,
+    "width_m": 8,
+    "thickness_mm": 80,
+    "expected_volume_m3": 3.84,
+    "scope": "slab only",
+    "source": "plans/SLAB-010.svg"
+  },
+  {
+    "id": "SLAB-011",
+    "synthetic": true,
+    "length_m": 7,
+    "width_m": 9,
+    "thickness_mm": 100,
+    "expected_volume_m3": 6.3,
+    "scope": "slab only",
+    "source": "plans/SLAB-011.svg"
+  },
+  {
+    "id": "SLAB-012",
+    "synthetic": true,
+    "length_m": 8,
+    "width_m": 10,
+    "thickness_mm": 120,
+    "expected_volume_m3": 9.6,
+    "scope": "slab only",
+    "source": "plans/SLAB-012.svg"
+  },
+  {
+    "id": "SLAB-013",
+    "synthetic": true,
+    "length_m": 9,
+    "width_m": 11,
+    "thickness_mm": 140,
+    "expected_volume_m3": 13.86,
+    "scope": "slab only",
+    "source": "plans/SLAB-013.svg"
+  },
+  {
+    "id": "SLAB-014",
+    "synthetic": true,
+    "length_m": 10,
+    "width_m": 5,
+    "thickness_mm": 160,
+    "expected_volume_m3": 8.0,
+    "scope": "slab only",
+    "source": "plans/SLAB-014.svg"
+  },
+  {
+    "id": "SLAB-015",
+    "synthetic": true,
+    "length_m": 11,
+    "width_m": 6,
+    "thickness_mm": 80,
+    "expected_volume_m3": 5.28,
+    "scope": "slab only",
+    "source": "plans/SLAB-015.svg"
+  },
+  {
+    "id": "SLAB-016",
+    "synthetic": true,
+    "length_m": 12,
+    "width_m": 7,
+    "thickness_mm": 100,
+    "expected_volume_m3": 8.4,
+    "scope": "slab only",
+    "source": "plans/SLAB-016.svg"
+  },
+  {
+    "id": "SLAB-017",
+    "synthetic": true,
+    "length_m": 13,
+    "width_m": 8,
+    "thickness_mm": 120,
+    "expected_volume_m3": 12.48,
+    "scope": "slab only",
+    "source": "plans/SLAB-017.svg"
+  },
+  {
+    "id": "SLAB-018",
+    "synthetic": true,
+    "length_m": 14,
+    "width_m": 9,
+    "thickness_mm": 140,
+    "expected_volume_m3": 17.64,
+    "scope": "slab only",
+    "source": "plans/SLAB-018.svg"
+  },
+  {
+    "id": "SLAB-019",
+    "synthetic": true,
+    "length_m": 15,
+    "width_m": 10,
+    "thickness_mm": 160,
+    "expected_volume_m3": 24.0,
+    "scope": "slab only",
+    "source": "plans/SLAB-019.svg"
+  },
+  {
+    "id": "SLAB-020",
+    "synthetic": true,
+    "length_m": 6,
+    "width_m": 11,
+    "thickness_mm": 80,
+    "expected_volume_m3": 5.28,
+    "scope": "slab only",
+    "source": "plans/SLAB-020.svg"
+  },
+  {
+    "id": "SLAB-021",
+    "synthetic": true,
+    "length_m": 7,
+    "width_m": 5,
+    "thickness_mm": 100,
+    "expected_volume_m3": 3.5,
+    "scope": "slab only",
+    "source": "plans/SLAB-021.svg"
+  },
+  {
+    "id": "SLAB-022",
+    "synthetic": true,
+    "length_m": 8,
+    "width_m": 6,
+    "thickness_mm": 120,
+    "expected_volume_m3": 5.76,
+    "scope": "slab only",
+    "source": "plans/SLAB-022.svg"
+  },
+  {
+    "id": "SLAB-023",
+    "synthetic": true,
+    "length_m": 9,
+    "width_m": 7,
+    "thickness_mm": 140,
+    "expected_volume_m3": 8.82,
+    "scope": "slab only",
+    "source": "plans/SLAB-023.svg"
+  },
+  {
+    "id": "SLAB-024",
+    "synthetic": true,
+    "length_m": 10,
+    "width_m": 8,
+    "thickness_mm": 160,
+    "expected_volume_m3": 12.8,
+    "scope": "slab only",
+    "source": "plans/SLAB-024.svg"
+  },
+  {
+    "id": "SLAB-025",
+    "synthetic": true,
+    "length_m": 11,
+    "width_m": 9,
+    "thickness_mm": 80,
+    "expected_volume_m3": 7.92,
+    "scope": "slab only",
+    "source": "plans/SLAB-025.svg"
+  },
+  {
+    "id": "SLAB-026",
+    "synthetic": true,
+    "length_m": 12,
+    "width_m": 10,
+    "thickness_mm": 100,
+    "expected_volume_m3": 12.0,
+    "scope": "slab only",
+    "source": "plans/SLAB-026.svg"
+  },
+  {
+    "id": "SLAB-027",
+    "synthetic": true,
+    "length_m": 13,
+    "width_m": 11,
+    "thickness_mm": 120,
+    "expected_volume_m3": 17.16,
+    "scope": "slab only",
+    "source": "plans/SLAB-027.svg"
+  },
+  {
+    "id": "SLAB-028",
+    "synthetic": true,
+    "length_m": 14,
+    "width_m": 5,
+    "thickness_mm": 140,
+    "expected_volume_m3": 9.8,
+    "scope": "slab only",
+    "source": "plans/SLAB-028.svg"
+  },
+  {
+    "id": "SLAB-029",
+    "synthetic": true,
+    "length_m": 15,
+    "width_m": 6,
+    "thickness_mm": 160,
+    "expected_volume_m3": 14.4,
+    "scope": "slab only",
+    "source": "plans/SLAB-029.svg"
+  },
+  {
+    "id": "SLAB-030",
+    "synthetic": true,
+    "length_m": 6,
+    "width_m": 7,
+    "thickness_mm": 80,
+    "expected_volume_m3": 3.36,
+    "scope": "slab only",
+    "source": "plans/SLAB-030.svg"
+  },
+  {
+    "id": "SLAB-031",
+    "synthetic": true,
+    "length_m": 7,
+    "width_m": 8,
+    "thickness_mm": 100,
+    "expected_volume_m3": 5.6,
+    "scope": "slab only",
+    "source": "plans/SLAB-031.svg"
+  },
+  {
+    "id": "SLAB-032",
+    "synthetic": true,
+    "length_m": 8,
+    "width_m": 9,
+    "thickness_mm": 120,
+    "expected_volume_m3": 8.64,
+    "scope": "slab only",
+    "source": "plans/SLAB-032.svg"
+  },
+  {
+    "id": "SLAB-033",
+    "synthetic": true,
+    "length_m": 9,
+    "width_m": 10,
+    "thickness_mm": 140,
+    "expected_volume_m3": 12.6,
+    "scope": "slab only",
+    "source": "plans/SLAB-033.svg"
+  },
+  {
+    "id": "SLAB-034",
+    "synthetic": true,
+    "length_m": 10,
+    "width_m": 11,
+    "thickness_mm": 160,
+    "expected_volume_m3": 17.6,
+    "scope": "slab only",
+    "source": "plans/SLAB-034.svg"
+  },
+  {
+    "id": "SLAB-035",
+    "synthetic": true,
+    "length_m": 11,
+    "width_m": 5,
+    "thickness_mm": 80,
+    "expected_volume_m3": 4.4,
+    "scope": "slab only",
+    "source": "plans/SLAB-035.svg"
+  },
+  {
+    "id": "SLAB-036",
+    "synthetic": true,
+    "length_m": 12,
+    "width_m": 6,
+    "thickness_mm": 100,
+    "expected_volume_m3": 7.2,
+    "scope": "slab only",
+    "source": "plans/SLAB-036.svg"
+  },
+  {
+    "id": "SLAB-037",
+    "synthetic": true,
+    "length_m": 13,
+    "width_m": 7,
+    "thickness_mm": 120,
+    "expected_volume_m3": 10.92,
+    "scope": "slab only",
+    "source": "plans/SLAB-037.svg"
+  },
+  {
+    "id": "SLAB-038",
+    "synthetic": true,
+    "length_m": 14,
+    "width_m": 8,
+    "thickness_mm": 140,
+    "expected_volume_m3": 15.68,
+    "scope": "slab only",
+    "source": "plans/SLAB-038.svg"
+  },
+  {
+    "id": "SLAB-039",
+    "synthetic": true,
+    "length_m": 15,
+    "width_m": 9,
+    "thickness_mm": 160,
+    "expected_volume_m3": 21.6,
+    "scope": "slab only",
+    "source": "plans/SLAB-039.svg"
+  },
+  {
+    "id": "SLAB-040",
+    "synthetic": true,
+    "length_m": 6,
+    "width_m": 10,
+    "thickness_mm": 80,
+    "expected_volume_m3": 4.8,
+    "scope": "slab only",
+    "source": "plans/SLAB-040.svg"
+  },
+  {
+    "id": "SLAB-041",
+    "synthetic": true,
+    "length_m": 7,
+    "width_m": 11,
+    "thickness_mm": 100,
+    "expected_volume_m3": 7.7,
+    "scope": "slab only",
+    "source": "plans/SLAB-041.svg"
+  },
+  {
+    "id": "SLAB-042",
+    "synthetic": true,
+    "length_m": 8,
+    "width_m": 5,
+    "thickness_mm": 120,
+    "expected_volume_m3": 4.8,
+    "scope": "slab only",
+    "source": "plans/SLAB-042.svg"
+  },
+  {
+    "id": "SLAB-043",
+    "synthetic": true,
+    "length_m": 9,
+    "width_m": 6,
+    "thickness_mm": 140,
+    "expected_volume_m3": 7.56,
+    "scope": "slab only",
+    "source": "plans/SLAB-043.svg"
+  },
+  {
+    "id": "SLAB-044",
+    "synthetic": true,
+    "length_m": 10,
+    "width_m": 7,
+    "thickness_mm": 160,
+    "expected_volume_m3": 11.2,
+    "scope": "slab only",
+    "source": "plans/SLAB-044.svg"
+  },
+  {
+    "id": "SLAB-045",
+    "synthetic": true,
+    "length_m": 11,
+    "width_m": 8,
+    "thickness_mm": 80,
+    "expected_volume_m3": 7.04,
+    "scope": "slab only",
+    "source": "plans/SLAB-045.svg"
+  },
+  {
+    "id": "SLAB-046",
+    "synthetic": true,
+    "length_m": 12,
+    "width_m": 9,
+    "thickness_mm": 100,
+    "expected_volume_m3": 10.8,
+    "scope": "slab only",
+    "source": "plans/SLAB-046.svg"
+  },
+  {
+    "id": "SLAB-047",
+    "synthetic": true,
+    "length_m": 13,
+    "width_m": 10,
+    "thickness_mm": 120,
+    "expected_volume_m3": 15.6,
+    "scope": "slab only",
+    "source": "plans/SLAB-047.svg"
+  },
+  {
+    "id": "SLAB-048",
+    "synthetic": true,
+    "length_m": 14,
+    "width_m": 11,
+    "thickness_mm": 140,
+    "expected_volume_m3": 21.56,
+    "scope": "slab only",
+    "source": "plans/SLAB-048.svg"
+  },
+  {
+    "id": "SLAB-049",
+    "synthetic": true,
+    "length_m": 15,
+    "width_m": 5,
+    "thickness_mm": 160,
+    "expected_volume_m3": 12.0,
+    "scope": "slab only",
+    "source": "plans/SLAB-049.svg"
+  },
+  {
+    "id": "SLAB-050",
+    "synthetic": true,
+    "length_m": 6,
+    "width_m": 6,
+    "thickness_mm": 80,
+    "expected_volume_m3": 2.88,
+    "scope": "slab only",
+    "source": "plans/SLAB-050.svg"
+  },
+  {
+    "id": "SLAB-051",
+    "synthetic": true,
+    "length_m": 7,
+    "width_m": 7,
+    "thickness_mm": 100,
+    "expected_volume_m3": 4.9,
+    "scope": "slab only",
+    "source": "plans/SLAB-051.svg"
+  },
+  {
+    "id": "SLAB-052",
+    "synthetic": true,
+    "length_m": 8,
+    "width_m": 8,
+    "thickness_mm": 120,
+    "expected_volume_m3": 7.68,
+    "scope": "slab only",
+    "source": "plans/SLAB-052.svg"
+  },
+  {
+    "id": "SLAB-053",
+    "synthetic": true,
+    "length_m": 9,
+    "width_m": 9,
+    "thickness_mm": 140,
+    "expected_volume_m3": 11.34,
+    "scope": "slab only",
+    "source": "plans/SLAB-053.svg"
+  },
+  {
+    "id": "SLAB-054",
+    "synthetic": true,
+    "length_m": 10,
+    "width_m": 10,
+    "thickness_mm": 160,
+    "expected_volume_m3": 16.0,
+    "scope": "slab only",
+    "source": "plans/SLAB-054.svg"
+  },
+  {
+    "id": "SLAB-055",
+    "synthetic": true,
+    "length_m": 11,
+    "width_m": 11,
+    "thickness_mm": 80,
+    "expected_volume_m3": 9.68,
+    "scope": "slab only",
+    "source": "plans/SLAB-055.svg"
+  },
+  {
+    "id": "SLAB-056",
+    "synthetic": true,
+    "length_m": 12,
+    "width_m": 5,
+    "thickness_mm": 100,
+    "expected_volume_m3": 6.0,
+    "scope": "slab only",
+    "source": "plans/SLAB-056.svg"
+  },
+  {
+    "id": "SLAB-057",
+    "synthetic": true,
+    "length_m": 13,
+    "width_m": 6,
+    "thickness_mm": 120,
+    "expected_volume_m3": 9.36,
+    "scope": "slab only",
+    "source": "plans/SLAB-057.svg"
+  },
+  {
+    "id": "SLAB-058",
+    "synthetic": true,
+    "length_m": 14,
+    "width_m": 7,
+    "thickness_mm": 140,
+    "expected_volume_m3": 13.72,
+    "scope": "slab only",
+    "source": "plans/SLAB-058.svg"
+  },
+  {
+    "id": "SLAB-059",
+    "synthetic": true,
+    "length_m": 15,
+    "width_m": 8,
+    "thickness_mm": 160,
+    "expected_volume_m3": 19.2,
+    "scope": "slab only",
+    "source": "plans/SLAB-059.svg"
+  },
+  {
+    "id": "SLAB-060",
+    "synthetic": true,
+    "length_m": 6,
+    "width_m": 9,
+    "thickness_mm": 80,
+    "expected_volume_m3": 4.32,
+    "scope": "slab only",
+    "source": "plans/SLAB-060.svg"
+  }
+]

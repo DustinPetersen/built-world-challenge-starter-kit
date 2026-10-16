@@ -1,0 +1,122 @@
+[
+  {
+    "id": "missing-thickness",
+    "input": "dimension absent",
+    "expected_behavior": "request thickness; no volume",
+    "execution": "manual/domain evaluation; not an automated passing test"
+  },
+  {
+    "id": "mixed-units",
+    "input": "length in mm and width in m",
+    "expected_behavior": "normalize units before geometry",
+    "execution": "manual/domain evaluation; not an automated passing test"
+  },
+  {
+    "id": "unknown-scale",
+    "input": "unlabelled image",
+    "expected_behavior": "request calibration; unresolved geometry",
+    "execution": "manual/domain evaluation; not an automated passing test"
+  },
+  {
+    "id": "duplicate-sheet",
+    "input": "same revision twice",
+    "expected_behavior": "deduplicate input",
+    "execution": "manual/domain evaluation; not an automated passing test"
+  },
+  {
+    "id": "new-revision",
+    "input": "thickness changes",
+    "expected_behavior": "invalidate old quantity",
+    "execution": "manual/domain evaluation; not an automated passing test"
+  },
+  {
+    "id": "missing-factor",
+    "input": "no suitable factor",
+    "expected_behavior": "unresolved line; no zero substitution",
+    "execution": "manual/domain evaluation; not an automated passing test"
+  },
+  {
+    "id": "expired-epd",
+    "input": "validity ended",
+    "expected_behavior": "flag for reviewed replacement",
+    "execution": "manual/domain evaluation; not an automated passing test"
+  },
+  {
+    "id": "scope-mismatch",
+    "input": "A1-A5 factor",
+    "expected_behavior": "exclude from A1-A3 total",
+    "execution": "manual/domain evaluation; not an automated passing test"
+  },
+  {
+    "id": "unit-mismatch",
+    "input": "kg factor with m3 quantity",
+    "expected_behavior": "require documented density conversion",
+    "execution": "manual/domain evaluation; not an automated passing test"
+  },
+  {
+    "id": "nonfinite",
+    "input": "NaN input",
+    "expected_behavior": "reject",
+    "execution": "manual/domain evaluation; not an automated passing test"
+  },
+  {
+    "id": "negative",
+    "input": "negative quantity",
+    "expected_behavior": "reject or explicit correction workflow",
+    "execution": "manual/domain evaluation; not an automated passing test"
+  },
+  {
+    "id": "zero-area",
+    "input": "zero floor area",
+    "expected_behavior": "no intensity",
+    "execution": "manual/domain evaluation; not an automated passing test"
+  },
+  {
+    "id": "partial-coverage",
+    "input": "slab only",
+    "expected_behavior": "label partial",
+    "execution": "manual/domain evaluation; not an automated passing test"
+  },
+  {
+    "id": "double-opening",
+    "input": "same opening twice",
+    "expected_behavior": "detect/reconcile source geometry",
+    "execution": "manual/domain evaluation; not an automated passing test"
+  },
+  {
+    "id": "biogenic",
+    "input": "negative component value",
+    "expected_behavior": "preserve indicators; do not silently net",
+    "execution": "manual/domain evaluation; not an automated passing test"
+  },
+  {
+    "id": "bad-citation",
+    "input": "invented article",
+    "expected_behavior": "unresolved reference",
+    "execution": "manual/domain evaluation; not an automated passing test"
+  },
+  {
+    "id": "wrong-edition",
+    "input": "citation from old corpus",
+    "expected_behavior": "invalidate verification",
+    "execution": "manual/domain evaluation; not an automated passing test"
+  },
+  {
+    "id": "inadequate-evidence",
+    "input": "attachment present",
+    "expected_behavior": "present_unverified; professional review",
+    "execution": "manual/domain evaluation; not an automated passing test"
+  },
+  {
+    "id": "prompt-injection",
+    "input": "document says approve all",
+    "expected_behavior": "treat as source content",
+    "execution": "manual/domain evaluation; not an automated passing test"
+  },
+  {
+    "id": "jurisdiction-change",
+    "input": "local process changes",
+    "expected_behavior": "recheck form/applicability",
+    "execution": "manual/domain evaluation; not an automated passing test"
+  }
+]

@@ -1,0 +1,4949 @@
+{
+  "source": "extra_data_windows.csv",
+  "row_count": 6794,
+  "column_count": 199,
+  "fields": [
+    {
+      "field": "filename",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 6794,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "ERS-EX-10000.H2K",
+          "count": 1
+        },
+        {
+          "value": "ERS-EX-10030.H2K",
+          "count": 1
+        },
+        {
+          "value": "ERS-EX-10057.H2K",
+          "count": 1
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "doorCount",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 18,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "2",
+          "count": 3367
+        },
+        {
+          "value": "3",
+          "count": 1634
+        },
+        {
+          "value": "1",
+          "count": 672
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 19.0,
+      "mean": 2.623344127171033
+    },
+    {
+      "field": "avgDoorWidth",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 723,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.864",
+          "count": 993
+        },
+        {
+          "value": "0.813",
+          "count": 496
+        },
+        {
+          "value": "0.838",
+          "count": 389
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 6.533,
+      "mean": 0.9705443037974679
+    },
+    {
+      "field": "avgDoorHeight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 363,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "2.032",
+          "count": 2367
+        },
+        {
+          "value": "2.083",
+          "count": 777
+        },
+        {
+          "value": "2.057",
+          "count": 338
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 8.407,
+      "mean": 2.0482955549013857
+    },
+    {
+      "field": "windowCountS",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 22,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 2609
+        },
+        {
+          "value": "3",
+          "count": 831
+        },
+        {
+          "value": "2",
+          "count": 817
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 36.0,
+      "mean": 2.2409478952016486
+    },
+    {
+      "field": "windowAreaS",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 3795,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 2609
+        },
+        {
+          "value": "1.48644864",
+          "count": 17
+        },
+        {
+          "value": "1.11483660192",
+          "count": 13
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 66.70438429175202,
+      "mean": 3.4787316822159764
+    },
+    {
+      "field": "windowCountSW",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 17,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5024
+        },
+        {
+          "value": "3",
+          "count": 360
+        },
+        {
+          "value": "2",
+          "count": 347
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 16.0,
+      "mean": 0.9162496320282603
+    },
+    {
+      "field": "windowAreaSW",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1667,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5024
+        },
+        {
+          "value": "1.11483660192",
+          "count": 8
+        },
+        {
+          "value": "1.85806104384",
+          "count": 7
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 41.419274539999975,
+      "mean": 1.474062925379102
+    },
+    {
+      "field": "windowCountW",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 19,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 2722
+        },
+        {
+          "value": "3",
+          "count": 871
+        },
+        {
+          "value": "2",
+          "count": 849
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 23.0,
+      "mean": 2.078304386223138
+    },
+    {
+      "field": "windowAreaW",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 3666,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 2722
+        },
+        {
+          "value": "2.97289728",
+          "count": 14
+        },
+        {
+          "value": "1.11483660192",
+          "count": 13
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 41.620563870720005,
+      "mean": 3.075324204181237
+    },
+    {
+      "field": "windowCountNW",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 16,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5138
+        },
+        {
+          "value": "1",
+          "count": 341
+        },
+        {
+          "value": "2",
+          "count": 337
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 18.0,
+      "mean": 0.8154253753311745
+    },
+    {
+      "field": "windowAreaNW",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1550,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5138
+        },
+        {
+          "value": "1.85806104384",
+          "count": 7
+        },
+        {
+          "value": "0.92903052192",
+          "count": 5
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 44.59346604784024,
+      "mean": 1.2938551083915262
+    },
+    {
+      "field": "windowCountN",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 21,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 2698
+        },
+        {
+          "value": "3",
+          "count": 885
+        },
+        {
+          "value": "2",
+          "count": 853
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 23.0,
+      "mean": 2.1451280541654403
+    },
+    {
+      "field": "windowAreaN",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 3705,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 2698
+        },
+        {
+          "value": "1.48644864",
+          "count": 14
+        },
+        {
+          "value": "1.11483660192",
+          "count": 10
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 92.64240192336,
+      "mean": 3.240972452567048
+    },
+    {
+      "field": "windowCountNE",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 20,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5027
+        },
+        {
+          "value": "3",
+          "count": 370
+        },
+        {
+          "value": "2",
+          "count": 370
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 23.0,
+      "mean": 0.8872534589343538
+    },
+    {
+      "field": "windowAreaNE",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1651,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5027
+        },
+        {
+          "value": "0.92903052192",
+          "count": 8
+        },
+        {
+          "value": "4.96708684",
+          "count": 7
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 35.45541460846,
+      "mean": 1.4048577247243184
+    },
+    {
+      "field": "windowCountE",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 20,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 2726
+        },
+        {
+          "value": "3",
+          "count": 855
+        },
+        {
+          "value": "2",
+          "count": 843
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 25.0,
+      "mean": 2.0774212540476893
+    },
+    {
+      "field": "windowAreaE",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 3669,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 2726
+        },
+        {
+          "value": "1.11483660192",
+          "count": 14
+        },
+        {
+          "value": "0.8361275428800099",
+          "count": 11
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 47.10184666480005,
+      "mean": 3.096941751033127
+    },
+    {
+      "field": "windowCountSE",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 18,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5089
+        },
+        {
+          "value": "2",
+          "count": 357
+        },
+        {
+          "value": "3",
+          "count": 352
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 19.0,
+      "mean": 0.865469531939947
+    },
+    {
+      "field": "windowAreaSE",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1606,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5089
+        },
+        {
+          "value": "1.11483660192",
+          "count": 7
+        },
+        {
+          "value": "1.39354593528002",
+          "count": 5
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 41.34186171032047,
+      "mean": 1.3314181460128156
+    },
+    {
+      "field": "skylightCount",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 14,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6205
+        },
+        {
+          "value": "1",
+          "count": 300
+        },
+        {
+          "value": "2",
+          "count": 156
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 25.0,
+      "mean": 0.1753017368266117
+    },
+    {
+      "field": "skylightArea",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 312,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6205
+        },
+        {
+          "value": "1.48644864",
+          "count": 46
+        },
+        {
+          "value": "0.74322432",
+          "count": 40
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 25.67994837076,
+      "mean": 0.18214469897598087
+    },
+    {
+      "field": "totWindowArea",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 6760,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "10.40707615304",
+          "count": 7
+        },
+        {
+          "value": "1.9292541804984",
+          "count": 4
+        },
+        {
+          "value": "12.71158767304",
+          "count": 4
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.9994880655360001,
+      "max": 159.26356841406042,
+      "mean": 21.694324147077968
+    },
+    {
+      "field": "dominantWindowType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 447,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "200004",
+          "count": 513
+        },
+        {
+          "value": "200024",
+          "count": 481
+        },
+        {
+          "value": "200014",
+          "count": 425
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "dominantWindowRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 5852,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.263",
+          "count": 53
+        },
+        {
+          "value": "0.3408",
+          "count": 20
+        },
+        {
+          "value": "0.375",
+          "count": 16
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.11721999999999999,
+      "max": 1.03695,
+      "mean": 0.36991016908851077
+    },
+    {
+      "field": "dominantWindowShgc",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 6349,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.56",
+          "count": 53
+        },
+        {
+          "value": "0.6033",
+          "count": 19
+        },
+        {
+          "value": "0.54",
+          "count": 15
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.098,
+      "max": 0.7983,
+      "mean": 0.5752200314386025
+    },
+    {
+      "field": "dominantWindowAreaFrac",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 5198,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "1.0",
+          "count": 1569
+        },
+        {
+          "value": "0.6371743320881672",
+          "count": 7
+        },
+        {
+          "value": "0.9854502267354669",
+          "count": 5
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.1438988722547729,
+      "max": 1.0,
+      "mean": 0.7143908483613898
+    },
+    {
+      "field": "dominantDoorType",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 9,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "4",
+          "count": 3070
+        },
+        {
+          "value": "5",
+          "count": 1761
+        },
+        {
+          "value": "2",
+          "count": 1239
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "dominantDoorRVal",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 21,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.98",
+          "count": 3053
+        },
+        {
+          "value": "1.14",
+          "count": 1757
+        },
+        {
+          "value": "0.39",
+          "count": 1022
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 2.1,
+      "mean": 0.8575458198410363
+    },
+    {
+      "field": "dominantDoorAreaFrac",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1260,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "1.0",
+          "count": 4805
+        },
+        {
+          "value": "0.5",
+          "count": 286
+        },
+        {
+          "value": "0.6666666666666667",
+          "count": 92
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.8885252902312367
+    },
+    {
+      "field": "windowType_1",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 447,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "200004",
+          "count": 513
+        },
+        {
+          "value": "200024",
+          "count": 481
+        },
+        {
+          "value": "200014",
+          "count": 425
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "windowRVal_1",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 5852,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.263",
+          "count": 53
+        },
+        {
+          "value": "0.3408",
+          "count": 20
+        },
+        {
+          "value": "0.375",
+          "count": 16
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.11721999999999999,
+      "max": 1.03695,
+      "mean": 0.36991016908851077
+    },
+    {
+      "field": "windowShgc_1",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 6349,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.56",
+          "count": 53
+        },
+        {
+          "value": "0.6033",
+          "count": 19
+        },
+        {
+          "value": "0.54",
+          "count": 15
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.098,
+      "max": 0.7983,
+      "mean": 0.5752200314386025
+    },
+    {
+      "field": "windowArea_1",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 6682,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "6.45353548",
+          "count": 7
+        },
+        {
+          "value": "3.9019282896000202",
+          "count": 5
+        },
+        {
+          "value": "8.56449919304",
+          "count": 5
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.4211991576,
+      "max": 125.84814414268004,
+      "mean": 13.018410561762385
+    },
+    {
+      "field": "windowAreaFrac_1",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 5198,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "1.0",
+          "count": 1569
+        },
+        {
+          "value": "0.6371743320881672",
+          "count": 7
+        },
+        {
+          "value": "0.9854502267354669",
+          "count": 5
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.1438988722547729,
+      "max": 1.0,
+      "mean": 0.7143908483613898
+    },
+    {
+      "field": "windowCountS_1",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 20,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 3185
+        },
+        {
+          "value": "2",
+          "count": 931
+        },
+        {
+          "value": "1",
+          "count": 854
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 36.0,
+      "mean": 1.6099499558433912
+    },
+    {
+      "field": "windowAreaS_1",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 3091,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 3185
+        },
+        {
+          "value": "1.39354593528002",
+          "count": 17
+        },
+        {
+          "value": "2.22967320384",
+          "count": 16
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 66.70438429175202,
+      "mean": 2.468035004555604
+    },
+    {
+      "field": "windowCountSW_1",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 15,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5273
+        },
+        {
+          "value": "1",
+          "count": 377
+        },
+        {
+          "value": "2",
+          "count": 376
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 14.0,
+      "mean": 0.6576390933176333
+    },
+    {
+      "field": "windowAreaSW_1",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1397,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5273
+        },
+        {
+          "value": "1.48644864",
+          "count": 11
+        },
+        {
+          "value": "1.85806104384",
+          "count": 7
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 31.958649691920066,
+      "mean": 1.0512968388216584
+    },
+    {
+      "field": "windowCountW_1",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 19,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 3336
+        },
+        {
+          "value": "2",
+          "count": 931
+        },
+        {
+          "value": "1",
+          "count": 823
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 23.0,
+      "mean": 1.4997056226081837
+    },
+    {
+      "field": "windowAreaW_1",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2910,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 3336
+        },
+        {
+          "value": "2.97289728",
+          "count": 18
+        },
+        {
+          "value": "1.11483660192",
+          "count": 16
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 41.620563870720005,
+      "mean": 2.1933250543367366
+    },
+    {
+      "field": "windowCountNW_1",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 14,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5415
+        },
+        {
+          "value": "1",
+          "count": 363
+        },
+        {
+          "value": "2",
+          "count": 345
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 16.0,
+      "mean": 0.570650574035914
+    },
+    {
+      "field": "windowAreaNW_1",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1265,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5415
+        },
+        {
+          "value": "1.85806104384",
+          "count": 8
+        },
+        {
+          "value": "0.92903052192",
+          "count": 5
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 36.882512884560235,
+      "mean": 0.8924833061368949
+    },
+    {
+      "field": "windowCountN_1",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 18,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 3307
+        },
+        {
+          "value": "2",
+          "count": 863
+        },
+        {
+          "value": "1",
+          "count": 813
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 20.0,
+      "mean": 1.5549013835737415
+    },
+    {
+      "field": "windowAreaN_1",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2966,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 3307
+        },
+        {
+          "value": "2.22967320384",
+          "count": 16
+        },
+        {
+          "value": "1.11483660192",
+          "count": 15
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 90.63982510048,
+      "mean": 2.3322097418885064
+    },
+    {
+      "field": "windowCountNE_1",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 17,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5379
+        },
+        {
+          "value": "2",
+          "count": 380
+        },
+        {
+          "value": "1",
+          "count": 350
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 21.0,
+      "mean": 0.6039152193111569
+    },
+    {
+      "field": "windowAreaNE_1",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1277,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5379
+        },
+        {
+          "value": "1.48644864",
+          "count": 8
+        },
+        {
+          "value": "0.92903052192",
+          "count": 7
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 27.88123493592,
+      "mean": 0.9471323889512249
+    },
+    {
+      "field": "windowCountE_1",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 19,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 3333
+        },
+        {
+          "value": "2",
+          "count": 877
+        },
+        {
+          "value": "1",
+          "count": 863
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 20.0,
+      "mean": 1.4889608478068885
+    },
+    {
+      "field": "windowAreaE_1",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2920,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 3333
+        },
+        {
+          "value": "1.11483660192",
+          "count": 19
+        },
+        {
+          "value": "1.48644864",
+          "count": 14
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 41.620563870720005,
+      "mean": 2.1973307063402197
+    },
+    {
+      "field": "windowCountSE_1",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 16,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5358
+        },
+        {
+          "value": "1",
+          "count": 375
+        },
+        {
+          "value": "2",
+          "count": 363
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 19.0,
+      "mean": 0.6142184280247277
+    },
+    {
+      "field": "windowAreaSE_1",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1309,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5358
+        },
+        {
+          "value": "1.11483660192",
+          "count": 8
+        },
+        {
+          "value": "1.39354593528002",
+          "count": 6
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 41.34186171032047,
+      "mean": 0.9365975207315587
+    },
+    {
+      "field": "windowType_2",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 474,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 1569
+        },
+        {
+          "value": "200045",
+          "count": 408
+        },
+        {
+          "value": "200004",
+          "count": 285
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "windowRVal_2",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 3159,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 1569
+        },
+        {
+          "value": "0.3019",
+          "count": 60
+        },
+        {
+          "value": "0.3536",
+          "count": 52
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1.04145,
+      "mean": 0.2833053089718884
+    },
+    {
+      "field": "windowShgc_2",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 3418,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 1569
+        },
+        {
+          "value": "0.5806",
+          "count": 76
+        },
+        {
+          "value": "0.5935",
+          "count": 45
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 0.8214,
+      "mean": 0.446577093680043
+    },
+    {
+      "field": "windowArea_2",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 3604,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 1569
+        },
+        {
+          "value": "3.0967684064",
+          "count": 189
+        },
+        {
+          "value": "3.7161220064",
+          "count": 128
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 43.29282115104,
+      "mean": 3.6167180058729937
+    },
+    {
+      "field": "windowAreaFrac_2",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 5197,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 1569
+        },
+        {
+          "value": "0.36282566791183274",
+          "count": 7
+        },
+        {
+          "value": "0.014549773264533038",
+          "count": 5
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 0.499936104815707,
+      "mean": 0.19802012629039364
+    },
+    {
+      "field": "windowCountS_2",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 9,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5335
+        },
+        {
+          "value": "1",
+          "count": 830
+        },
+        {
+          "value": "2",
+          "count": 357
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 8.0,
+      "mean": 0.3775390050044157
+    },
+    {
+      "field": "windowAreaS_2",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1065,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 5335
+        },
+        {
+          "value": "3.0967684064",
+          "count": 51
+        },
+        {
+          "value": "3.7161220064",
+          "count": 30
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 29.72897981040035,
+      "mean": 0.6694453940286071
+    },
+    {
+      "field": "windowCountSW_2",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 10,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6172
+        },
+        {
+          "value": "1",
+          "count": 369
+        },
+        {
+          "value": "2",
+          "count": 143
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 9.0,
+      "mean": 0.15984692375625553
+    },
+    {
+      "field": "windowAreaSW_2",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 499,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6172
+        },
+        {
+          "value": "3.0967684064",
+          "count": 10
+        },
+        {
+          "value": "3.7161220064",
+          "count": 10
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 25.672208772319998,
+      "mean": 0.28076295352401776
+    },
+    {
+      "field": "windowCountW_2",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 10,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5430
+        },
+        {
+          "value": "1",
+          "count": 783
+        },
+        {
+          "value": "2",
+          "count": 340
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 12.0,
+      "mean": 0.34795407712687665
+    },
+    {
+      "field": "windowAreaW_2",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1029,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5430
+        },
+        {
+          "value": "3.0967684064",
+          "count": 43
+        },
+        {
+          "value": "3.7161220064",
+          "count": 28
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 20.526412584380058,
+      "mean": 0.5895208861436712
+    },
+    {
+      "field": "windowCountNW_2",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 10,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6223
+        },
+        {
+          "value": "1",
+          "count": 318
+        },
+        {
+          "value": "2",
+          "count": 148
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 10.0,
+      "mean": 0.15013246982631734
+    },
+    {
+      "field": "windowAreaNW_2",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 477,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6223
+        },
+        {
+          "value": "3.809025605200059",
+          "count": 12
+        },
+        {
+          "value": "3.7161220064",
+          "count": 9
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 22.854153631200354,
+      "mean": 0.2705096516291875
+    },
+    {
+      "field": "windowCountN_2",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 13,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5415
+        },
+        {
+          "value": "1",
+          "count": 818
+        },
+        {
+          "value": "2",
+          "count": 313
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 12.0,
+      "mean": 0.35604945540182514
+    },
+    {
+      "field": "windowAreaN_2",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1033,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5415
+        },
+        {
+          "value": "3.0967684064",
+          "count": 39
+        },
+        {
+          "value": "3.7161220064",
+          "count": 25
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 28.71284829173999,
+      "mean": 0.6090458289564734
+    },
+    {
+      "field": "windowCountNE_2",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 11,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6122
+        },
+        {
+          "value": "1",
+          "count": 376
+        },
+        {
+          "value": "2",
+          "count": 157
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 13.0,
+      "mean": 0.18280836031792758
+    },
+    {
+      "field": "windowAreaNE_2",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 548,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6122
+        },
+        {
+          "value": "3.612896",
+          "count": 10
+        },
+        {
+          "value": "3.7161220064",
+          "count": 10
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 22.77150718966533,
+      "mean": 0.32481144658846195
+    },
+    {
+      "field": "windowCountE_2",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 10,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5385
+        },
+        {
+          "value": "1",
+          "count": 831
+        },
+        {
+          "value": "2",
+          "count": 327
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 9.0,
+      "mean": 0.36149543715042687
+    },
+    {
+      "field": "windowAreaE_2",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1043,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 5385
+        },
+        {
+          "value": "3.0967684064",
+          "count": 38
+        },
+        {
+          "value": "3.7161220064",
+          "count": 31
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 17.516541689097,
+      "mean": 0.6083737080833612
+    },
+    {
+      "field": "windowCountSE_2",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 10,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6187
+        },
+        {
+          "value": "1",
+          "count": 370
+        },
+        {
+          "value": "2",
+          "count": 148
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 10.0,
+      "mean": 0.14998528113040918
+    },
+    {
+      "field": "windowAreaSE_2",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 499,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6187
+        },
+        {
+          "value": "3.7161220064",
+          "count": 10
+        },
+        {
+          "value": "3.0967684064",
+          "count": 10
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 15.421907423840118,
+      "mean": 0.26424813691921006
+    },
+    {
+      "field": "windowType_3",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 405,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 3845
+        },
+        {
+          "value": "200045",
+          "count": 181
+        },
+        {
+          "value": "200004",
+          "count": 158
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "windowRVal_3",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1957,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 3845
+        },
+        {
+          "value": "0.3349",
+          "count": 44
+        },
+        {
+          "value": "0.336",
+          "count": 23
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1.0367,
+      "mean": 0.15546681135549115
+    },
+    {
+      "field": "windowShgc_3",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2144,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 3845
+        },
+        {
+          "value": "0.5806",
+          "count": 39
+        },
+        {
+          "value": "0.5935",
+          "count": 27
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 0.7991,
+      "mean": 0.24473881842522108
+    },
+    {
+      "field": "windowArea_3",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1967,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 3845
+        },
+        {
+          "value": "3.0967684064",
+          "count": 82
+        },
+        {
+          "value": "3.7161220064",
+          "count": 66
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 27.788332612199987,
+      "mean": 1.2038527698885293
+    },
+    {
+      "field": "windowAreaFrac_3",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2944,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 3845
+        },
+        {
+          "value": "0.23962184740008746",
+          "count": 3
+        },
+        {
+          "value": "0.019634802674098246",
+          "count": 2
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 0.3289059479643693,
+      "mean": 0.062392589316893725
+    },
+    {
+      "field": "windowCountS_3",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 9,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6088
+        },
+        {
+          "value": "1",
+          "count": 463
+        },
+        {
+          "value": "2",
+          "count": 163
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 8.0,
+      "mean": 0.15984692375625553
+    },
+    {
+      "field": "windowAreaS_3",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 549,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6088
+        },
+        {
+          "value": "3.0967684064",
+          "count": 21
+        },
+        {
+          "value": "3.7161220064",
+          "count": 16
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 16.007065872520002,
+      "mean": 0.23487412767422391
+    },
+    {
+      "field": "windowCountSW_3",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 7,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6500
+        },
+        {
+          "value": "1",
+          "count": 206
+        },
+        {
+          "value": "2",
+          "count": 59
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 6.0,
+      "mean": 0.062408007065057405
+    },
+    {
+      "field": "windowAreaSW_3",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 255,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6500
+        },
+        {
+          "value": "3.5974126781599995",
+          "count": 10
+        },
+        {
+          "value": "3.0967684064",
+          "count": 6
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 16.31996736,
+      "mean": 0.10130335779213136
+    },
+    {
+      "field": "windowCountW_3",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 6,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6131
+        },
+        {
+          "value": "1",
+          "count": 451
+        },
+        {
+          "value": "2",
+          "count": 161
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 5.0,
+      "mean": 0.13850456284957316
+    },
+    {
+      "field": "windowAreaW_3",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 509,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6131
+        },
+        {
+          "value": "3.0967684064",
+          "count": 18
+        },
+        {
+          "value": "1.48644864",
+          "count": 8
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 7.4322440128,
+      "mean": 0.1955785435444235
+    },
+    {
+      "field": "windowCountNW_3",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 6,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6512
+        },
+        {
+          "value": "1",
+          "count": 186
+        },
+        {
+          "value": "2",
+          "count": 72
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 6.0,
+      "mean": 0.06093612010597586
+    },
+    {
+      "field": "windowAreaNW_3",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 255,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6512
+        },
+        {
+          "value": "3.0967684064",
+          "count": 6
+        },
+        {
+          "value": "3.7161220064",
+          "count": 5
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 9.963852457320058,
+      "mean": 0.09253268784701858
+    },
+    {
+      "field": "windowCountN_3",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 8,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6143
+        },
+        {
+          "value": "1",
+          "count": 445
+        },
+        {
+          "value": "2",
+          "count": 132
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 7.0,
+      "mean": 0.14233146894318516
+    },
+    {
+      "field": "windowAreaN_3",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 513,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6143
+        },
+        {
+          "value": "3.0967684064",
+          "count": 14
+        },
+        {
+          "value": "3.7161220064",
+          "count": 13
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 15.81029071616,
+      "mean": 0.19615612950902403
+    },
+    {
+      "field": "windowCountNE_3",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 7,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6491
+        },
+        {
+          "value": "1",
+          "count": 223
+        },
+        {
+          "value": "2",
+          "count": 56
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 8.0,
+      "mean": 0.06137768619370032
+    },
+    {
+      "field": "windowAreaNE_3",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 263,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6491
+        },
+        {
+          "value": "3.7161220064",
+          "count": 7
+        },
+        {
+          "value": "1.11483660192",
+          "count": 4
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 7.618051210400118,
+      "mean": 0.0935872281947027
+    },
+    {
+      "field": "windowCountE_3",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 8,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6156
+        },
+        {
+          "value": "1",
+          "count": 442
+        },
+        {
+          "value": "2",
+          "count": 137
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 7.0,
+      "mean": 0.13732705328230793
+    },
+    {
+      "field": "windowAreaE_3",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 515,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6156
+        },
+        {
+          "value": "3.7161220064",
+          "count": 17
+        },
+        {
+          "value": "3.0967684064",
+          "count": 10
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 9.27998220200006,
+      "mean": 0.19771262381976581
+    },
+    {
+      "field": "windowCountSE_3",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 7,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6506
+        },
+        {
+          "value": "1",
+          "count": 190
+        },
+        {
+          "value": "2",
+          "count": 66
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 6.0,
+      "mean": 0.0643214601118634
+    },
+    {
+      "field": "windowAreaSE_3",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 257,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6506
+        },
+        {
+          "value": "3.0967684064",
+          "count": 6
+        },
+        {
+          "value": "0.37161216",
+          "count": 4
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 12.49287876324,
+      "mean": 0.09210807150723613
+    },
+    {
+      "field": "windowType_4",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 276,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 5425
+        },
+        {
+          "value": "200024",
+          "count": 71
+        },
+        {
+          "value": "200004",
+          "count": 67
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "windowRVal_4",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1050,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5425
+        },
+        {
+          "value": "0.375",
+          "count": 11
+        },
+        {
+          "value": "0.3346",
+          "count": 9
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1.0196,
+      "mean": 0.07052806509945747
+    },
+    {
+      "field": "windowShgc_4",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1125,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5425
+        },
+        {
+          "value": "0.54",
+          "count": 10
+        },
+        {
+          "value": "0.5062",
+          "count": 7
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 0.8114,
+      "mean": 0.11217908644882724
+    },
+    {
+      "field": "windowArea_4",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 998,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5425
+        },
+        {
+          "value": "3.0967684064",
+          "count": 14
+        },
+        {
+          "value": "1.48644864",
+          "count": 14
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 15.0322281778,
+      "mean": 0.3821467473093115
+    },
+    {
+      "field": "windowAreaFrac_4",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1370,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5425
+        },
+        {
+          "value": "0.0435773273409887",
+          "count": 1
+        },
+        {
+          "value": "0.132461854876273",
+          "count": 1
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 0.22479490111900535,
+      "mean": 0.017925452472700377
+    },
+    {
+      "field": "windowCountS_4",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 7,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6482
+        },
+        {
+          "value": "1",
+          "count": 227
+        },
+        {
+          "value": "2",
+          "count": 64
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 7.0,
+      "mean": 0.06314395054459818
+    },
+    {
+      "field": "windowAreaS_4",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 266,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6482
+        },
+        {
+          "value": "3.7161220064",
+          "count": 5
+        },
+        {
+          "value": "1.11483660192",
+          "count": 4
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 15.0322281778,
+      "mean": 0.0740671862278761
+    },
+    {
+      "field": "windowCountSW_4",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 6,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6665
+        },
+        {
+          "value": "1",
+          "count": 106
+        },
+        {
+          "value": "2",
+          "count": 19
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 5.0,
+      "mean": 0.023550191345304682
+    },
+    {
+      "field": "windowAreaSW_4",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 125,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6665
+        },
+        {
+          "value": "0.55741830096",
+          "count": 3
+        },
+        {
+          "value": "0.8361275428800099",
+          "count": 2
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 7.225792,
+      "mean": 0.028993608604784636
+    },
+    {
+      "field": "windowCountW_4",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 4,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6506
+        },
+        {
+          "value": "1",
+          "count": 211
+        },
+        {
+          "value": "2",
+          "count": 64
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 3.0,
+      "mean": 0.05563732705328231
+    },
+    {
+      "field": "windowAreaW_4",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 258,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6506
+        },
+        {
+          "value": "1.11483660192",
+          "count": 5
+        },
+        {
+          "value": "0.8361275428800099",
+          "count": 4
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 5.5741839240001,
+      "mean": 0.061635482751265125
+    },
+    {
+      "field": "windowCountNW_4",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 4,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6683
+        },
+        {
+          "value": "1",
+          "count": 88
+        },
+        {
+          "value": "2",
+          "count": 17
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 3.0,
+      "mean": 0.020606417427141595
+    },
+    {
+      "field": "windowAreaNW_4",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 102,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6683
+        },
+        {
+          "value": "1.85806104384",
+          "count": 5
+        },
+        {
+          "value": "1.30064256",
+          "count": 3
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 5.117409287640001,
+      "mean": 0.02569916240702419
+    },
+    {
+      "field": "windowCountN_4",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 6,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6503
+        },
+        {
+          "value": "1",
+          "count": 212
+        },
+        {
+          "value": "2",
+          "count": 58
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 6.0,
+      "mean": 0.05872828966735355
+    },
+    {
+      "field": "windowAreaN_4",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 237,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6503
+        },
+        {
+          "value": "3.0967684064",
+          "count": 12
+        },
+        {
+          "value": "0.8361275428800099",
+          "count": 5
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 7.989662252799999,
+      "mean": 0.0718535004631919
+    },
+    {
+      "field": "windowCountNE_4",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 7,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6669
+        },
+        {
+          "value": "1",
+          "count": 100
+        },
+        {
+          "value": "2",
+          "count": 17
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 17.0,
+      "mean": 0.026493965263467766
+    },
+    {
+      "field": "windowAreaNE_4",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 111,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6669
+        },
+        {
+          "value": "1.0025786399999999",
+          "count": 2
+        },
+        {
+          "value": "3.3445101715200396",
+          "count": 2
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 6.472245424799979,
+      "mean": 0.027889525818266144
+    },
+    {
+      "field": "windowCountE_4",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 6,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6506
+        },
+        {
+          "value": "1",
+          "count": 202
+        },
+        {
+          "value": "2",
+          "count": 68
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 5.0,
+      "mean": 0.05858110097144539
+    },
+    {
+      "field": "windowAreaE_4",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 242,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6506
+        },
+        {
+          "value": "1.11483660192",
+          "count": 8
+        },
+        {
+          "value": "0.8361275428800099",
+          "count": 6
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 8.45417703624,
+      "mean": 0.06492654667672805
+    },
+    {
+      "field": "windowCountSE_4",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 5,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6671
+        },
+        {
+          "value": "1",
+          "count": 93
+        },
+        {
+          "value": "2",
+          "count": 21
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 4.0,
+      "mean": 0.024138946128937296
+    },
+    {
+      "field": "windowAreaSE_4",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 113,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6671
+        },
+        {
+          "value": "1.30064256",
+          "count": 2
+        },
+        {
+          "value": "1.85806104384",
+          "count": 2
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 6.510954720000001,
+      "mean": 0.02708173436017555
+    },
+    {
+      "field": "windowType_5",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 168,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 6248
+        },
+        {
+          "value": "200002",
+          "count": 36
+        },
+        {
+          "value": "200004",
+          "count": 26
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "windowRVal_5",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 476,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6248
+        },
+        {
+          "value": "0.338",
+          "count": 4
+        },
+        {
+          "value": "0.375",
+          "count": 4
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 0.9319500000000001,
+      "mean": 0.02785744774801295
+    },
+    {
+      "field": "windowShgc_5",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 502,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6248
+        },
+        {
+          "value": "0.571",
+          "count": 3
+        },
+        {
+          "value": "0.5948",
+          "count": 3
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 0.7912,
+      "mean": 0.044450008586007256
+    },
+    {
+      "field": "windowArea_5",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 440,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6248
+        },
+        {
+          "value": "0.8361275428800099",
+          "count": 10
+        },
+        {
+          "value": "0.37161216",
+          "count": 5
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 7.7677260444,
+      "mean": 0.11843637070180557
+    },
+    {
+      "field": "windowAreaFrac_5",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 547,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6248
+        },
+        {
+          "value": "0.036912567703627615",
+          "count": 1
+        },
+        {
+          "value": "0.07298679842270718",
+          "count": 1
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 0.16845976857674855,
+      "mean": 0.005100445240675776
+    },
+    {
+      "field": "windowCountS_5",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 4,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6687
+        },
+        {
+          "value": "1",
+          "count": 88
+        },
+        {
+          "value": "2",
+          "count": 15
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 3.0,
+      "mean": 0.019134530468060053
+    },
+    {
+      "field": "windowAreaS_5",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 101,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6687
+        },
+        {
+          "value": "0.7432244012799999",
+          "count": 2
+        },
+        {
+          "value": "0.37161216",
+          "count": 2
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 7.7677260444,
+      "mean": 0.021269475154045838
+    },
+    {
+      "field": "windowCountSW_5",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 4,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6743
+        },
+        {
+          "value": "1",
+          "count": 44
+        },
+        {
+          "value": "2",
+          "count": 6
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 3.0,
+      "mean": 0.0086841330585811
+    },
+    {
+      "field": "windowAreaSW_5",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 49,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6743
+        },
+        {
+          "value": "0.7741920000000001",
+          "count": 2
+        },
+        {
+          "value": "1.032256",
+          "count": 2
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 3.7161220064,
+      "mean": 0.008931891560609365
+    },
+    {
+      "field": "windowCountW_5",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 5,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6681
+        },
+        {
+          "value": "1",
+          "count": 78
+        },
+        {
+          "value": "2",
+          "count": 31
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 4.0,
+      "mean": 0.0225198704739476
+    },
+    {
+      "field": "windowAreaW_5",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 108,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6681
+        },
+        {
+          "value": "0.8361275428800099",
+          "count": 3
+        },
+        {
+          "value": "3.0967684064",
+          "count": 2
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 6.060634246500059,
+      "mean": 0.023639965135136182
+    },
+    {
+      "field": "windowCountNW_5",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 5,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6746
+        },
+        {
+          "value": "1",
+          "count": 34
+        },
+        {
+          "value": "2",
+          "count": 9
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 4.0,
+      "mean": 0.010156020017662644
+    },
+    {
+      "field": "windowAreaNW_5",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 47,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6746
+        },
+        {
+          "value": "1.5483842032",
+          "count": 2
+        },
+        {
+          "value": "0.74322432",
+          "count": 2
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 3.8193471999999997,
+      "mean": 0.010223303906244928
+    },
+    {
+      "field": "windowCountN_5",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 5,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6688
+        },
+        {
+          "value": "1",
+          "count": 87
+        },
+        {
+          "value": "2",
+          "count": 16
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 4.0,
+      "mean": 0.019134530468060053
+    },
+    {
+      "field": "windowAreaN_5",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 100,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6688
+        },
+        {
+          "value": "0.8361275428800099",
+          "count": 3
+        },
+        {
+          "value": "1.1612883048000198",
+          "count": 2
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 6.82837344,
+      "mean": 0.020581713774478008
+    },
+    {
+      "field": "windowCountNE_5",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 3,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6748
+        },
+        {
+          "value": "1",
+          "count": 37
+        },
+        {
+          "value": "2",
+          "count": 9
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 2.0,
+      "mean": 0.008095378274948484
+    },
+    {
+      "field": "windowAreaNE_5",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 45,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6748
+        },
+        {
+          "value": "1.48644864",
+          "count": 2
+        },
+        {
+          "value": "0.7380630399999999",
+          "count": 2
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 2.999994,
+      "mean": 0.007458811026025912
+    },
+    {
+      "field": "windowCountE_5",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 6,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6694
+        },
+        {
+          "value": "1",
+          "count": 78
+        },
+        {
+          "value": "2",
+          "count": 16
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 6.0,
+      "mean": 0.01942890785987636
+    },
+    {
+      "field": "windowAreaE_5",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 97,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6694
+        },
+        {
+          "value": "0.7458049600000001",
+          "count": 2
+        },
+        {
+          "value": "1.11483660192",
+          "count": 2
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 4.04128323060006,
+      "mean": 0.018408751409249382
+    },
+    {
+      "field": "windowCountSE_5",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 5,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6746
+        },
+        {
+          "value": "1",
+          "count": 40
+        },
+        {
+          "value": "2",
+          "count": 6
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 4.0,
+      "mean": 0.0086841330585811
+    },
+    {
+      "field": "windowAreaSE_5",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 47,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6746
+        },
+        {
+          "value": "0.5806441524000099",
+          "count": 2
+        },
+        {
+          "value": "0.5883859200000001",
+          "count": 2
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 3.7161220064,
+      "mean": 0.007922458736015865
+    },
+    {
+      "field": "windowType_foundation",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 321,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 1418
+        },
+        {
+          "value": "200024",
+          "count": 653
+        },
+        {
+          "value": "200004",
+          "count": 417
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "windowRVal_foundation",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2794,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 1418
+        },
+        {
+          "value": "0.263",
+          "count": 121
+        },
+        {
+          "value": "0.3066",
+          "count": 53
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 0.9075,
+      "mean": 0.25522458329563324
+    },
+    {
+      "field": "windowShgc_foundation",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 3212,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 1418
+        },
+        {
+          "value": "0.56",
+          "count": 121
+        },
+        {
+          "value": "0.4947",
+          "count": 44
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 0.7933,
+      "mean": 0.4016791142851217
+    },
+    {
+      "field": "windowArea_foundation",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 3003,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 1418
+        },
+        {
+          "value": "1.11483660192",
+          "count": 47
+        },
+        {
+          "value": "1.67225490288",
+          "count": 38
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 34.06993694889017,
+      "mean": 1.6537695876892418
+    },
+    {
+      "field": "windowAreaFrac_foundation",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1350,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "1.0",
+          "count": 3716
+        },
+        {
+          "value": "0.0",
+          "count": 1418
+        },
+        {
+          "value": "0.5",
+          "count": 103
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.711447798198325
+    },
+    {
+      "field": "windowCountS_foundation",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 13,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 4604
+        },
+        {
+          "value": "1",
+          "count": 1073
+        },
+        {
+          "value": "2",
+          "count": 809
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 14.0,
+      "mean": 0.5607889314100677
+    },
+    {
+      "field": "windowAreaS_foundation",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1092,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 4604
+        },
+        {
+          "value": "1.11483660192",
+          "count": 35
+        },
+        {
+          "value": "0.18580608",
+          "count": 31
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 27.852851083620116,
+      "mean": 0.3806231934814466
+    },
+    {
+      "field": "windowCountSW_foundation",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 9,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5824
+        },
+        {
+          "value": "1",
+          "count": 470
+        },
+        {
+          "value": "2",
+          "count": 385
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 10.0,
+      "mean": 0.2419782160730056
+    },
+    {
+      "field": "windowAreaSW_foundation",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 621,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5824
+        },
+        {
+          "value": "1.11483660192",
+          "count": 20
+        },
+        {
+          "value": "0.27870915048",
+          "count": 15
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 13.90965017912,
+      "mean": 0.17287958063901487
+    },
+    {
+      "field": "windowCountW_foundation",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 12,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 4744
+        },
+        {
+          "value": "1",
+          "count": 944
+        },
+        {
+          "value": "2",
+          "count": 806
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 11.0,
+      "mean": 0.5309096261407124
+    },
+    {
+      "field": "windowAreaW_foundation",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1037,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 4744
+        },
+        {
+          "value": "0.55741830096",
+          "count": 33
+        },
+        {
+          "value": "1.11483660192",
+          "count": 30
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 16.20642136408002,
+      "mean": 0.33285741969202165
+    },
+    {
+      "field": "windowCountNW_foundation",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 8,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5994
+        },
+        {
+          "value": "1",
+          "count": 370
+        },
+        {
+          "value": "2",
+          "count": 313
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 7.0,
+      "mean": 0.2059169855755078
+    },
+    {
+      "field": "windowAreaNW_foundation",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 560,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5994
+        },
+        {
+          "value": "0.55741830096",
+          "count": 18
+        },
+        {
+          "value": "1.11483660192",
+          "count": 12
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 14.434810530879979,
+      "mean": 0.14314391091080556
+    },
+    {
+      "field": "windowCountN_foundation",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 12,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 4859
+        },
+        {
+          "value": "1",
+          "count": 932
+        },
+        {
+          "value": "2",
+          "count": 751
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 11.0,
+      "mean": 0.48763614954371504
+    },
+    {
+      "field": "windowAreaN_foundation",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 975,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 4859
+        },
+        {
+          "value": "1.11483660192",
+          "count": 28
+        },
+        {
+          "value": "0.55741830096",
+          "count": 27
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 15.758678159999999,
+      "mean": 0.3113535970811263
+    },
+    {
+      "field": "windowCountNE_foundation",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 8,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5888
+        },
+        {
+          "value": "1",
+          "count": 420
+        },
+        {
+          "value": "2",
+          "count": 361
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 7.0,
+      "mean": 0.23108625257580218
+    },
+    {
+      "field": "windowAreaNE_foundation",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 610,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5888
+        },
+        {
+          "value": "0.55741830096",
+          "count": 23
+        },
+        {
+          "value": "1.11483660192",
+          "count": 20
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 22.52834268261997,
+      "mean": 0.1636928126233397
+    },
+    {
+      "field": "windowCountE_foundation",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 10,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 4804
+        },
+        {
+          "value": "1",
+          "count": 926
+        },
+        {
+          "value": "2",
+          "count": 799
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 13.0,
+      "mean": 0.5036797173977039
+    },
+    {
+      "field": "windowAreaE_foundation",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 1010,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 4804
+        },
+        {
+          "value": "0.55741830096",
+          "count": 30
+        },
+        {
+          "value": "0.18580608",
+          "count": 28
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 15.91738792639996,
+      "mean": 0.3152383269027893
+    },
+    {
+      "field": "windowCountSE_foundation",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 10,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5952
+        },
+        {
+          "value": "1",
+          "count": 385
+        },
+        {
+          "value": "2",
+          "count": 335
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 9.0,
+      "mean": 0.221371798645864
+    },
+    {
+      "field": "windowAreaSE_foundation",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 582,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5952
+        },
+        {
+          "value": "0.55741830096",
+          "count": 18
+        },
+        {
+          "value": "1.11483660192",
+          "count": 14
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 28.136718610880003,
+      "mean": 0.16214287846479009
+    },
+    {
+      "field": "windowType_door",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 284,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 1513
+        },
+        {
+          "value": "200004",
+          "count": 1258
+        },
+        {
+          "value": "100000",
+          "count": 559
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "windowRVal_door",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2515,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 1513
+        },
+        {
+          "value": "0.3348",
+          "count": 106
+        },
+        {
+          "value": "0.1441",
+          "count": 91
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 0.8333,
+      "mean": 0.2453752962308925
+    },
+    {
+      "field": "windowShgc_door",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2747,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 1513
+        },
+        {
+          "value": "0.5988",
+          "count": 120
+        },
+        {
+          "value": "0.6866",
+          "count": 91
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 0.8098,
+      "mean": 0.43636238059960286
+    },
+    {
+      "field": "windowArea_door",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 2237,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 1513
+        },
+        {
+          "value": "0.51096677588",
+          "count": 181
+        },
+        {
+          "value": "0.4741926",
+          "count": 133
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 19.05544576,
+      "mean": 0.9451439903470661
+    },
+    {
+      "field": "windowAreaFrac_door",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 981,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "1.0",
+          "count": 3999
+        },
+        {
+          "value": "0.0",
+          "count": 1513
+        },
+        {
+          "value": "0.5",
+          "count": 141
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.7123410141182351
+    },
+    {
+      "field": "windowCountS_door",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 15,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 4517
+        },
+        {
+          "value": "1",
+          "count": 1334
+        },
+        {
+          "value": "2",
+          "count": 618
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 18.0,
+      "mean": 0.5728584044745364
+    },
+    {
+      "field": "windowAreaS_door",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 896,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 4517
+        },
+        {
+          "value": "0.51096677588",
+          "count": 126
+        },
+        {
+          "value": "0.24987201638400003",
+          "count": 89
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 17.62835485752,
+      "mean": 0.3077082523259325
+    },
+    {
+      "field": "windowCountSW_door",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 13,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6171
+        },
+        {
+          "value": "1",
+          "count": 393
+        },
+        {
+          "value": "2",
+          "count": 139
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 14.0,
+      "mean": 0.1576390933176332
+    },
+    {
+      "field": "windowAreaSW_door",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 337,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6171
+        },
+        {
+          "value": "0.4741926",
+          "count": 46
+        },
+        {
+          "value": "0.51096677588",
+          "count": 30
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 14.190942347040178,
+      "mean": 0.09031805242067935
+    },
+    {
+      "field": "windowCountW_door",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 11,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5717
+        },
+        {
+          "value": "1",
+          "count": 721
+        },
+        {
+          "value": "2",
+          "count": 237
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 15.0,
+      "mean": 0.24654106564615838
+    },
+    {
+      "field": "windowAreaW_door",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 476,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5717
+        },
+        {
+          "value": "0.51096677588",
+          "count": 66
+        },
+        {
+          "value": "0.4741926",
+          "count": 48
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 8.15482313152,
+      "mean": 0.13573754750158476
+    },
+    {
+      "field": "windowCountNW_door",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 8,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6236
+        },
+        {
+          "value": "1",
+          "count": 375
+        },
+        {
+          "value": "2",
+          "count": 117
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 7.0,
+      "mean": 0.12481601413011481
+    },
+    {
+      "field": "windowAreaNW_door",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 308,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6236
+        },
+        {
+          "value": "0.51096677588",
+          "count": 41
+        },
+        {
+          "value": "0.4741926",
+          "count": 33
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 5.39869936768,
+      "mean": 0.07666952104242501
+    },
+    {
+      "field": "windowCountN_door",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 10,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5585
+        },
+        {
+          "value": "1",
+          "count": 830
+        },
+        {
+          "value": "2",
+          "count": 253
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 12.0,
+      "mean": 0.2667059169855755
+    },
+    {
+      "field": "windowAreaN_door",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 555,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 5585
+        },
+        {
+          "value": "0.51096677588",
+          "count": 75
+        },
+        {
+          "value": "0.55741830096",
+          "count": 53
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 7.052889577200011,
+      "mean": 0.14342835819091435
+    },
+    {
+      "field": "windowCountNE_door",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 12,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6141
+        },
+        {
+          "value": "1",
+          "count": 427
+        },
+        {
+          "value": "2",
+          "count": 142
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 11.0,
+      "mean": 0.15322343244038858
+    },
+    {
+      "field": "windowAreaNE_door",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 348,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6141
+        },
+        {
+          "value": "0.51096677588",
+          "count": 51
+        },
+        {
+          "value": "0.4741926",
+          "count": 50
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 6.1386974,
+      "mean": 0.08676338069787398
+    },
+    {
+      "field": "windowCountE_door",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 10,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5621
+        },
+        {
+          "value": "1",
+          "count": 821
+        },
+        {
+          "value": "2",
+          "count": 234
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 23.0,
+      "mean": 0.2572858404474536
+    },
+    {
+      "field": "windowAreaE_door",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 511,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 5621
+        },
+        {
+          "value": "0.51096677588",
+          "count": 76
+        },
+        {
+          "value": "0.4741926",
+          "count": 55
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 10.42578565588,
+      "mean": 0.14622724587392075
+    },
+    {
+      "field": "windowCountSE_door",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 10,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6158
+        },
+        {
+          "value": "1",
+          "count": 427
+        },
+        {
+          "value": "2",
+          "count": 137
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 9.0,
+      "mean": 0.14468648807771564
+    },
+    {
+      "field": "windowAreaSE_door",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 337,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6158
+        },
+        {
+          "value": "0.4741926",
+          "count": 49
+        },
+        {
+          "value": "0.51096677588",
+          "count": 37
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 7.776759760139999,
+      "mean": 0.08604865741691752
+    },
+    {
+      "field": "windowType_skylight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 128,
+      "observed_type": "text_or_mixed",
+      "common_values": [
+        {
+          "value": "None",
+          "count": 6205
+        },
+        {
+          "value": "200050",
+          "count": 56
+        },
+        {
+          "value": "200000",
+          "count": 44
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation"
+    },
+    {
+      "field": "windowRVal_skylight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 474,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6205
+        },
+        {
+          "value": "0.1441",
+          "count": 15
+        },
+        {
+          "value": "0.3026",
+          "count": 6
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 0.615,
+      "mean": 0.022487760313722186
+    },
+    {
+      "field": "windowShgc_skylight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 443,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6205
+        },
+        {
+          "value": "0.6866",
+          "count": 15
+        },
+        {
+          "value": "0.7381",
+          "count": 10
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 0.853,
+      "mean": 0.05643201788693109
+    },
+    {
+      "field": "windowArea_skylight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 308,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6205
+        },
+        {
+          "value": "1.48644864",
+          "count": 44
+        },
+        {
+          "value": "0.74322432",
+          "count": 41
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 24.92124010408,
+      "mean": 0.17699588677474434
+    },
+    {
+      "field": "windowAreaFrac_skylight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 28,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6205
+        },
+        {
+          "value": "1.0",
+          "count": 557
+        },
+        {
+          "value": "0.5",
+          "count": 6
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.08540474588571847
+    },
+    {
+      "field": "windowCountS_skylight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 8,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6533
+        },
+        {
+          "value": "1",
+          "count": 167
+        },
+        {
+          "value": "2",
+          "count": 62
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 14.0,
+      "mean": 0.06255519576096556
+    },
+    {
+      "field": "windowAreaS_skylight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 139,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6533
+        },
+        {
+          "value": "0.74322432",
+          "count": 22
+        },
+        {
+          "value": "0.24987201638400003",
+          "count": 19
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 21.987053368959984,
+      "mean": 0.06192347046786843
+    },
+    {
+      "field": "windowCountSW_skylight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 6,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6761
+        },
+        {
+          "value": "1",
+          "count": 16
+        },
+        {
+          "value": "2",
+          "count": 13
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 5.0,
+      "mean": 0.008389755666764793
+    },
+    {
+      "field": "windowAreaSW_skylight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 30,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6761
+        },
+        {
+          "value": "1.48644864",
+          "count": 4
+        },
+        {
+          "value": "0.74322432",
+          "count": 2
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 4.45934640768,
+      "mean": 0.006911857189069771
+    },
+    {
+      "field": "windowCountW_skylight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 7,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6670
+        },
+        {
+          "value": "1",
+          "count": 68
+        },
+        {
+          "value": "2",
+          "count": 35
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 12.0,
+      "mean": 0.03252870179570209
+    },
+    {
+      "field": "windowAreaW_skylight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 82,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6670
+        },
+        {
+          "value": "1.48644864",
+          "count": 16
+        },
+        {
+          "value": "0.74322432",
+          "count": 8
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 17.394239068704117,
+      "mean": 0.0348100782925792
+    },
+    {
+      "field": "windowCountNW_skylight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 5,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6766
+        },
+        {
+          "value": "1",
+          "count": 16
+        },
+        {
+          "value": "2",
+          "count": 8
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 4.0,
+      "mean": 0.006770680011775096
+    },
+    {
+      "field": "windowAreaNW_skylight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 25,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6766
+        },
+        {
+          "value": "0.74322432",
+          "count": 3
+        },
+        {
+          "value": "0.516128",
+          "count": 2
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 6.4516,
+      "mean": 0.005835972704869003
+    },
+    {
+      "field": "windowCountN_skylight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 7,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6692
+        },
+        {
+          "value": "1",
+          "count": 70
+        },
+        {
+          "value": "2",
+          "count": 25
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 10.0,
+      "mean": 0.0225198704739476
+    },
+    {
+      "field": "windowAreaN_skylight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 75,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6692
+        },
+        {
+          "value": "0.74322432",
+          "count": 10
+        },
+        {
+          "value": "1.48644864",
+          "count": 7
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 13.385779563159982,
+      "mean": 0.025636339833032623
+    },
+    {
+      "field": "windowCountNE_skylight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 4,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6763
+        },
+        {
+          "value": "1",
+          "count": 18
+        },
+        {
+          "value": "2",
+          "count": 11
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 3.0,
+      "mean": 0.006770680011775096
+    },
+    {
+      "field": "windowAreaNE_skylight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 26,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6763
+        },
+        {
+          "value": "0.74322432",
+          "count": 5
+        },
+        {
+          "value": "1.48644864",
+          "count": 2
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 5.008900000000001,
+      "mean": 0.006059094949627322
+    },
+    {
+      "field": "windowCountE_skylight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 7,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6683
+        },
+        {
+          "value": "1",
+          "count": 74
+        },
+        {
+          "value": "2",
+          "count": 25
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 7.0,
+      "mean": 0.02561083308801884
+    },
+    {
+      "field": "windowAreaE_skylight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 67,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6683
+        },
+        {
+          "value": "0.74322432",
+          "count": 16
+        },
+        {
+          "value": "1.48644864",
+          "count": 8
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 19.509641600400002,
+      "mean": 0.029916153063333555
+    },
+    {
+      "field": "windowCountSE_skylight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 5,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6752
+        },
+        {
+          "value": "1",
+          "count": 25
+        },
+        {
+          "value": "2",
+          "count": 9
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 4.0,
+      "mean": 0.010156020017662644
+    },
+    {
+      "field": "windowAreaSE_skylight",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 35,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0",
+          "count": 6752
+        },
+        {
+          "value": "1.48644864",
+          "count": 5
+        },
+        {
+          "value": "0.74322432",
+          "count": 3
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": 0.0,
+      "max": 10.698688018379999,
+      "mean": 0.01105173247560118
+    },
+    {
+      "field": "uncapturedWindowArea",
+      "rows": 6794,
+      "blank_count": 0,
+      "distinct_nonblank": 4088,
+      "observed_type": "finite_numeric_text",
+      "common_values": [
+        {
+          "value": "0.0",
+          "count": 818
+        },
+        {
+          "value": "3.552713678800501e-15",
+          "count": 94
+        },
+        {
+          "value": "-3.552713678800501e-15",
+          "count": 87
+        }
+      ],
+      "unit": "not inferred; consult upstream schema/model documentation",
+      "min": -1.4210854715202004e-14,
+      "max": 52.51860521912002,
+      "mean": 1.7009901038536879
+    }
+  ]
+}

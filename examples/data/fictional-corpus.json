@@ -1,0 +1,19 @@
+{
+  "notice": "FICTIONAL corpus for software testing. Not building-code text, legal guidance or regulatory requirements.",
+  "records": [
+    {
+      "source_id": "fictional-workflow-guide",
+      "edition": "demo-1",
+      "printing": "1",
+      "article": "DEMO-A",
+      "source_anchor": "self-authored synthetic record DEMO-A",
+      "text": "For this fictional workflow only, an example package records its evidence sources.",
+      "attributions": ["DEMO-objective-traceability"]
+    }
+  ],
+  "queries": [
+    {"source_id": "fictional-workflow-guide", "edition": "demo-1", "printing": "1", "article": "DEMO-A"},
+    {"source_id": "fictional-workflow-guide", "edition": "demo-2", "printing": "1", "article": "DEMO-A"},
+    {"source_id": "fictional-workflow-guide", "edition": "demo-1", "printing": "1", "article": "INVENTED"}
+  ]
+}
